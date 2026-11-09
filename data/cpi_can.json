@@ -1,0 +1,165 @@
+{
+ "id": "cpi_can",
+ "title": "加拿大 CPI 通胀",
+ "subtitle": "消费者物价指数 · 同比 %",
+ "source": "OECD Data Explorer — Consumer price indices (CPIs, HICPs), COICOP 2018",
+ "unit": "%",
+ "decimals": 2,
+ "direction_good": "down",
+ "latest": {
+  "period": "2026-09",
+  "value": 3.092783
+ },
+ "change_vs_prev": 0.05880200000000002,
+ "change_vs_year_ago": 0.734,
+ "series": [
+  {
+   "period": "2023-09",
+   "value": 3.798297
+  },
+  {
+   "period": "2023-10",
+   "value": 3.120936
+  },
+  {
+   "period": "2023-11",
+   "value": 3.116883
+  },
+  {
+   "period": "2023-12",
+   "value": 3.396473
+  },
+  {
+   "period": "2024-01",
+   "value": 2.858999
+  },
+  {
+   "period": "2024-02",
+   "value": 2.783171
+  },
+  {
+   "period": "2024-03",
+   "value": 2.897618
+  },
+  {
+   "period": "2024-04",
+   "value": 2.685422
+  },
+  {
+   "period": "2024-05",
+   "value": 2.866242
+  },
+  {
+   "period": "2024-06",
+   "value": 2.671756
+  },
+  {
+   "period": "2024-07",
+   "value": 2.530044
+  },
+  {
+   "period": "2024-08",
+   "value": 1.953371
+  },
+  {
+   "period": "2024-09",
+   "value": 1.640379
+  },
+  {
+   "period": "2024-10",
+   "value": 2.017654
+  },
+  {
+   "period": "2024-11",
+   "value": 1.889169
+  },
+  {
+   "period": "2024-12",
+   "value": 1.831965
+  },
+  {
+   "period": "2025-01",
+   "value": 1.895136
+  },
+  {
+   "period": "2025-02",
+   "value": 2.644836
+  },
+  {
+   "period": "2025-03",
+   "value": 2.315394
+  },
+  {
+   "period": "2025-04",
+   "value": 1.743462
+  },
+  {
+   "period": "2025-05",
+   "value": 1.733746
+  },
+  {
+   "period": "2025-06",
+   "value": 1.858736
+  },
+  {
+   "period": "2025-07",
+   "value": 1.727329
+  },
+  {
+   "period": "2025-08",
+   "value": 1.854141
+  },
+  {
+   "period": "2025-09",
+   "value": 2.358783
+  },
+  {
+   "period": "2025-10",
+   "value": 2.163164
+  },
+  {
+   "period": "2025-11",
+   "value": 2.224969
+  },
+  {
+   "period": "2025-12",
+   "value": 2.35732
+  },
+  {
+   "period": "2026-01",
+   "value": 2.293862
+  },
+  {
+   "period": "2026-02",
+   "value": 1.779141
+  },
+  {
+   "period": "2026-03",
+   "value": 2.385321
+  },
+  {
+   "period": "2026-04",
+   "value": 2.815177
+  },
+  {
+   "period": "2026-05",
+   "value": 3.225806
+  },
+  {
+   "period": "2026-06",
+   "value": 2.798054
+  },
+  {
+   "period": "2026-07",
+   "value": 3.032141
+  },
+  {
+   "period": "2026-08",
+   "value": 3.033981
+  },
+  {
+   "period": "2026-09",
+   "value": 3.092783
+  }
+ ]
+}
