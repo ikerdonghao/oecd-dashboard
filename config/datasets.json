@@ -1,0 +1,65 @@
+{
+  "datasets": [
+    {
+      "id": "cpi_can",
+      "title": "加拿大 CPI 通胀",
+      "subtitle": "消费者物价指数 · 同比 %",
+      "source": "OECD Data Explorer — Consumer price indices (CPIs, HICPs), COICOP 2018",
+      "dataflow": "OECD.SDD.TPS,DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL,1.0",
+      "filter": "CAN.M.N.CPI.PA._T.N.GY",
+      "unit": "%",
+      "decimals": 2,
+      "direction_good": "down",
+      "note": "GY = 同比变化率；PA = 百分比。已验证 2026-11-09。"
+    },
+    {
+      "id": "cli_can",
+      "title": "加拿大综合领先指标 CLI",
+      "subtitle": "景气先行指标 · 长期趋势 = 100",
+      "source": "OECD Data Explorer — Composite leading indicators",
+      "dataflow": "OECD.SDD.STES,DSD_STES@DF_CLI,4.1",
+      "filter": "CAN.M.LI.IX._Z.AA.IX._Z.H",
+      "unit": "",
+      "decimals": 2,
+      "direction_good": "up",
+      "note": "LI = CLI；AA = 振幅调整（官方头条口径）；>100 高于长期趋势。已验证 2026-11-09。"
+    },
+    {
+      "id": "unemployment_can",
+      "title": "加拿大失业率",
+      "subtitle": "失业人数占劳动力 % · 月度",
+      "source": "OECD Data Explorer — Key short-term economic indicators (KEI)",
+      "dataflow": "OECD.SDD.STES,DSD_KEI@DF_KEI,4.0",
+      "filter": "CAN.M.UNEMP.PT_LF._T.Y._Z",
+      "unit": "%",
+      "decimals": 1,
+      "direction_good": "down",
+      "note": "UNEMP + PT_LF = 失业率。已验证 2026-11-09。"
+    },
+    {
+      "id": "retail_can",
+      "title": "加拿大零售贸易量",
+      "subtitle": "零售量指数 · 2015 = 100",
+      "source": "OECD Data Explorer — Key short-term economic indicators (KEI)",
+      "dataflow": "OECD.SDD.STES,DSD_KEI@DF_KEI,4.0",
+      "filter": "CAN.M.TOVM.IX.G47.Y._Z",
+      "unit": "",
+      "decimals": 1,
+      "direction_good": "up",
+      "note": "TOVM = 零售贸易量；G47 = 不含汽车的零售业。已验证 2026-11-09。"
+    },
+    {
+      "id": "sahm_can",
+      "title": "加拿大萨姆规则衰退指标",
+      "subtitle": "失业率3月均值 − 过去12个月低点 · 百分点",
+      "source": "OECD Data Explorer — Sahm rule recession indicator",
+      "dataflow": "OECD.SDD.STES,DSD_STES@DF_SAHM,1.0",
+      "filter": "CAN.M.LORTRESA.PD._T.Y._Z._Z._Z",
+      "unit": "pp",
+      "decimals": 2,
+      "direction_good": "down",
+      "note": "LORTRESA = 萨姆规则指标；≥ +0.50 历史上触发衰退信号。已验证 2026-11-09。"
+    }
+  ],
+  "todo": []
+}
