@@ -60,6 +60,6 @@ index.html 读 JSON 渲染卡片
 ## 里程碑
 
 - [x] Spike 验证（2026-11-09，见 oecd-dashboard-spike 仓库）：拉数 / CORS / Actions→Pages 链路全通
-- [ ] MVP：5 张卡 + 每日自动更新 + Pages 上线
+- [x] MVP：5 张卡 + 每日自动更新 + Pages 上线（2026-11-09 上线并验收）
 - [ ] V1：国家切换（加/美/OECD）、解读文案半自动、10–12 张卡
 - [ ] V2：CLI 与 IAB 广告市场数据对齐分析图
