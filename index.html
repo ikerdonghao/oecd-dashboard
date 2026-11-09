@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>加拿大经济速览 · OECD 数据</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+  :root{--ink:#1a2332;--muted:#66707e;--good:#0a7d4f;--bad:#c0392b;--line:#e3e7ee;--bg:#f5f6f8;--card:#fff}
+  *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+  header{max-width:1080px;margin:0 auto;padding:36px 20px 8px}
+  h1{font-size:26px;margin:0 0 6px} .sub{color:var(--muted);font-size:14px}
+  main{max-width:1080px;margin:0 auto;padding:16px 20px 48px;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 18px 10px}
+  .card h2{font-size:16px;margin:0} .card .subtitle{color:var(--muted);font-size:12.5px;margin:3px 0 10px}
+  .big{font-size:34px;font-weight:700;letter-spacing:-.5px} .big .unit{font-size:16px;font-weight:600;color:var(--muted)}
+  .period{color:var(--muted);font-size:12.5px;margin-left:8px}
+  .chips{margin:8px 0 2px;font-size:12.5px;display:flex;gap:12px;flex-wrap:wrap}
+  .chip b{font-weight:650} .up-good,.down-good{color:var(--good)} .up-bad,.down-bad{color:var(--bad)}
+  .chart{height:120px;margin-top:6px}
+  .take{font-size:13px;line-height:1.55;border-top:1px dashed var(--line);padding-top:9px;margin-top:4px}
+  .src{color:var(--muted);font-size:11px;margin-top:8px}
+  footer{max-width:1080px;margin:0 auto;padding:0 20px 36px;color:var(--muted);font-size:12.5px}
+</style>
+</head>
+<body>
+<header>
+  <h1>加拿大经济速览</h1>
+  <div class="sub">五张卡看懂加拿大宏观现状 · 数据由 GitHub Actions 每日自动从 OECD 拉取 · <span id="updated">更新时间读取中…</span></div>
+</header>
+<main id="grid"></main>
+<footer>Source: OECD Data Explorer（每张卡片内均有标注）· 本页为个人数据分析练习作品，指标口径以 OECD 发布为准。</footer>
+
+<script>
+const IDS = ["cli_can", "cpi_can", "unemployment_can", "sahm_can", "retail_can"];
+
+function fmt(v, d){ return v.toLocaleString("en-CA",{minimumFractionDigits:d, maximumFractionDigits:d}); }
+function arrow(x){ return x > 0 ? "▲" : (x < 0 ? "▼" : "—"); }
+function chipClass(change, goodDir){
+  if (change === 0) return "";
+  const up = change > 0;
+  const good = (up && goodDir === "up") || (!up && goodDir === "down");
+  return (up ? "up-" : "down-") + (good ? "good" : "bad");
+}
+function takeaway(d){
+  const v = d.latest.value, unit = d.unit === "pp" ? " 个百分点" : (d.unit ? " " + d.unit : "");
+  if (d.id === "cli_can") return v >= 100 ? "CLI 站在 100 上方：景气处于长期趋势之上，先行指标还没有转弱。" : "CLI 跌破 100：景气低于长期趋势，需要留意后续月份是否继续下滑。";
+  if (d.id === "sahm_can") return v >= 0.5 ? "已越过 +0.50 触发线：按历史规律，这通常意味着衰退已经开始。" : "当前 " + fmt(v,2) + "，离 +0.50 的衰退触发线还远，就业市场尚未发出衰退信号。";
+  if (d.id === "cpi_can") return "通胀最新 " + fmt(v,2) + "%，较一年前" + (d.change_vs_year_ago >= 0 ? "高 " : "低 ") + fmt(Math.abs(d.change_vs_year_ago),2) + " 个百分点。";
+  if (d.id === "unemployment_can") return "失业率 " + fmt(v,1) + "%。配合萨姆规则卡一起看：水平不低，但只要不快速上升，衰退风险就有限。";
+  if (d.id === "retail_can") return "零售量指数 " + fmt(v,1) + "（2015 年 = 100），反映居民实物消费的量而非价格。";
+  return "";
+}
+
+async function load(){
+  try {
+    const meta = await (await fetch("data/meta.json?t=" + Date.now())).json();
+    document.getElementById("updated").textContent = "数据更新于 " + meta.updated_at_utc;
+  } catch(e) { document.getElementById("updated").textContent = ""; }
+
+  const grid = document.getElementById("grid");
+  for (const id of IDS) {
+    let d;
+    try { d = await (await fetch("data/" + id + ".json?t=" + Date.now())).json(); }
+    catch(e) { continue; }
+    const card = document.createElement("section"); card.className = "card";
+    const cp = d.change_vs_prev, cy = d.change_vs_year_ago;
+    card.innerHTML =
+      "<h2>" + d.title + "</h2>" +
+      '<div class="subtitle">' + d.subtitle + "</div>" +
+      '<div><span class="big">' + fmt(d.latest.value, d.decimals) +
+      '<span class="unit">' + (d.unit === "%" ? "%" : (d.unit === "pp" ? " pp" : "")) + "</span></span>" +
+      '<span class="period">' + d.latest.period + "</span></div>" +
+      '<div class="chips">' +
+        (cp === null ? "" : '<span class="chip">较上月 <b class="' + chipClass(cp, d.direction_good) + '">' + arrow(cp) + " " + fmt(Math.abs(cp), 2) + "</b></span>") +
+        (cy === null ? "" : '<span class="chip">较一年前 <b class="' + chipClass(cy, d.direction_good) + '">' + arrow(cy) + " " + fmt(Math.abs(cy), 2) + "</b></span>") +
+      "</div>" +
+      '<div class="chart" id="ch-' + id + '"></div>' +
+      '<div class="take">' + takeaway(d) + "</div>" +
+      '<div class="src">Source: OECD Data Explorer</div>';
+    grid.appendChild(card);
+
+    const chart = echarts.init(document.getElementById("ch-" + id));
+    chart.setOption({
+      grid: {left: 6, right: 6, top: 10, bottom: 4},
+      xAxis: {type: "category", show: false, data: d.series.map(p => p.period)},
+      yAxis: {type: "value", show: false, scale: true},
+      tooltip: {trigger: "axis", formatter: ps => ps[0].name + "：" + fmt(ps[0].value, d.decimals)},
+      series: [{type: "line", smooth: true, symbol: "none", lineStyle: {width: 2, color: "#0b5fff"},
+                areaStyle: {color: "rgba(11,95,255,.08)"}, data: d.series.map(p => p.value)}]
+    });
+  }
+}
+load();
+</script>
+</body>
+</html>
