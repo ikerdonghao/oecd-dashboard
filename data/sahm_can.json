@@ -1,0 +1,165 @@
+{
+ "id": "sahm_can",
+ "title": "加拿大萨姆规则衰退指标",
+ "subtitle": "失业率3月均值 − 过去12个月低点 · 百分点",
+ "source": "OECD Data Explorer — Sahm rule recession indicator",
+ "unit": "pp",
+ "decimals": 2,
+ "direction_good": "down",
+ "latest": {
+  "period": "2026-10",
+  "value": 0.1
+ },
+ "change_vs_prev": 0.1,
+ "change_vs_year_ago": -0.3666667,
+ "series": [
+  {
+   "period": "2023-10",
+   "value": 0.5
+  },
+  {
+   "period": "2023-11",
+   "value": 0.6333333
+  },
+  {
+   "period": "2023-12",
+   "value": 0.7333333
+  },
+  {
+   "period": "2024-01",
+   "value": 0.7333333
+  },
+  {
+   "period": "2024-02",
+   "value": 0.7
+  },
+  {
+   "period": "2024-03",
+   "value": 0.7666667
+  },
+  {
+   "period": "2024-04",
+   "value": 0.9333333
+  },
+  {
+   "period": "2024-05",
+   "value": 1.066667
+  },
+  {
+   "period": "2024-06",
+   "value": 1.066667
+  },
+  {
+   "period": "2024-07",
+   "value": 1.033333
+  },
+  {
+   "period": "2024-08",
+   "value": 1.066667
+  },
+  {
+   "period": "2024-09",
+   "value": 1.066667
+  },
+  {
+   "period": "2024-10",
+   "value": 1.033333
+  },
+  {
+   "period": "2024-11",
+   "value": 1.033333
+  },
+  {
+   "period": "2024-12",
+   "value": 1.0
+  },
+  {
+   "period": "2025-01",
+   "value": 1.033333
+  },
+  {
+   "period": "2025-02",
+   "value": 0.8666667
+  },
+  {
+   "period": "2025-03",
+   "value": 0.8
+  },
+  {
+   "period": "2025-04",
+   "value": 0.7
+  },
+  {
+   "period": "2025-05",
+   "value": 0.7
+  },
+  {
+   "period": "2025-06",
+   "value": 0.6333333
+  },
+  {
+   "period": "2025-07",
+   "value": 0.5666667
+  },
+  {
+   "period": "2025-08",
+   "value": 0.5
+  },
+  {
+   "period": "2025-09",
+   "value": 0.5333334
+  },
+  {
+   "period": "2025-10",
+   "value": 0.4666667
+  },
+  {
+   "period": "2025-11",
+   "value": 0.2
+  },
+  {
+   "period": "2025-12",
+   "value": 0.1
+  },
+  {
+   "period": "2026-01",
+   "value": -0.03333334
+  },
+  {
+   "period": "2026-02",
+   "value": 0.03333334
+  },
+  {
+   "period": "2026-03",
+   "value": 0.0
+  },
+  {
+   "period": "2026-04",
+   "value": 0.1333333
+  },
+  {
+   "period": "2026-05",
+   "value": 0.1
+  },
+  {
+   "period": "2026-06",
+   "value": 0.03333334
+  },
+  {
+   "period": "2026-07",
+   "value": -0.1333333
+  },
+  {
+   "period": "2026-08",
+   "value": -0.06666667
+  },
+  {
+   "period": "2026-09",
+   "value": 0.0
+  },
+  {
+   "period": "2026-10",
+   "value": 0.1
+  }
+ ]
+}
