@@ -1,0 +1,31 @@
+{
+ "updated_at_utc": "2026-11-09 22:44 UTC",
+ "succeeded": [
+  {
+   "id": "cpi_can",
+   "latest_period": "2026-09",
+   "latest_value": 3.092783
+  },
+  {
+   "id": "cli_can",
+   "latest_period": "2026-10",
+   "latest_value": 101.7892
+  },
+  {
+   "id": "unemployment_can",
+   "latest_period": "2026-10",
+   "latest_value": 6.7
+  },
+  {
+   "id": "retail_can",
+   "latest_period": "2026-08",
+   "latest_value": 132.042706233964
+  },
+  {
+   "id": "sahm_can",
+   "latest_period": "2026-10",
+   "latest_value": 0.1
+  }
+ ],
+ "failed": []
+}
