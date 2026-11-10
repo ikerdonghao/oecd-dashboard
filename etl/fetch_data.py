@@ -69,16 +69,68 @@ def fetch_csv(dataflow: str, filt: str) -> list[dict]:
     time.sleep(1.2)
     if "NoRecordsFound" in text:
         return []
-    rows = list(csv.DictReader(io.StringIO(text)))
+    rows = [r for r in csv.DictReader(io.StringIO(text)) if r.get("OBS_VALUE") not in (None, "")]
     rows.sort(key=lambda r: r["TIME_PERIOD"])
     return rows[-(HISTORY_MONTHS):] if len(rows) > HISTORY_MONTHS else rows
 
 
-def summarise(ds: dict, rows: list[dict]) -> dict:
-    series = [{"period": r["TIME_PERIOD"], "value": float(r["OBS_VALUE"])} for r in rows]
+IMF_API = "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.STA/GFS_COFOG/+/"
+
+
+def fetch_imf(filt: str) -> list[dict]:
+    """Fetch one IMF GFS_COFOG series (SDMX 3.0, SDMX-JSON) and return
+    rows in the same shape as fetch_csv. Keyless — but the URL version
+    segment must be '+' (an explicit version returns an empty result),
+    and dimensionAtObservation=TIME_PERIOD is required (verified
+    2026-11-10). [] means the flow answered with no matching series."""
+    url = IMF_API + filt + "?dimensionAtObservation=TIME_PERIOD"
+    req = urllib.request.Request(url, headers={"User-Agent": "oecd-dashboard-etl",
+                                               "Accept": "application/json"})
+    text = None
+    for attempt, wait in enumerate((0, 5, 15, 30, 60)):
+        if wait:
+            time.sleep(wait)
+        try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                text = resp.read().decode("utf-8")
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503, 504) and attempt < 4:
+                continue
+            raise
+    time.sleep(1.2)
+    doc = json.loads(text)
+    datasets = doc.get("data", {}).get("dataSets", [])
+    series_map = datasets[0].get("series", {}) if datasets else {}
+    if not series_map:
+        return []
+    structure = doc["data"]["structures"][0]
+    dim_values = [[v.get("id") for v in d["values"]] for d in structure["dimensions"]["series"]]
+    time_values = [v.get("value") for v in structure["dimensions"]["observation"][0]["values"]]
+    wanted = filt.split(".")
+    rows = []
+    for key, sdata in series_map.items():
+        actual = [dim_values[i][int(p)] for i, p in enumerate(key.split(":"))]
+        if actual != wanted:
+            continue
+        for idx, obs in sdata.get("observations", {}).items():
+            if obs and obs[0] is not None:
+                rows.append({"TIME_PERIOD": time_values[int(idx)], "OBS_VALUE": str(obs[0])})
+    rows.sort(key=lambda r: r["TIME_PERIOD"])
+    return rows[-HISTORY_MONTHS:] if len(rows) > HISTORY_MONTHS else rows
+
+
+PERIODS_PER_YEAR = {"M": 12, "Q": 4, "A": 1}
+
+
+def build_payload(ds: dict, series: list[dict]) -> dict:
+    """Assemble the per-dataset JSON from a finished series. The
+    year-ago comparison uses the dataset's own frequency (an annual
+    series compares 1 period back, a quarterly one 4, monthly 12)."""
+    ppy = PERIODS_PER_YEAR.get(ds.get("freq", "M"), 12)
     latest = series[-1]
     prev = series[-2] if len(series) > 1 else None
-    yoy_ref = series[-13] if len(series) > 12 else None
+    yoy_ref = series[-(ppy + 1)] if len(series) > ppy else None
     return {
         "id": ds["id"],
         "title": ds["title"],
@@ -87,11 +139,17 @@ def summarise(ds: dict, rows: list[dict]) -> dict:
         "unit": ds["unit"],
         "decimals": ds["decimals"],
         "direction_good": ds["direction_good"],
+        "freq": ds.get("freq", "M"),
         "latest": latest,
         "change_vs_prev": (latest["value"] - prev["value"]) if prev else None,
         "change_vs_year_ago": (latest["value"] - yoy_ref["value"]) if yoy_ref else None,
         "series": series,
     }
+
+
+def summarise(ds: dict, rows: list[dict]) -> dict:
+    series = [{"period": r["TIME_PERIOD"], "value": float(r["OBS_VALUE"])} for r in rows]
+    return build_payload(ds, series)
 
 
 def choose_mode() -> str:
@@ -116,6 +174,29 @@ def main() -> int:
         reg = json.loads(registry_path.read_text(encoding="utf-8"))
         known_empty = {e["id"]: e.get("since", "") for e in reg.get("empty", [])}
 
+    by_id = {d["id"]: d for d in config["datasets"]}
+    rows_cache: dict[str, list[dict]] = {}
+
+    def get_rows(ds: dict) -> list[dict]:
+        if ds["id"] not in rows_cache:
+            if ds.get("provider") == "imf":
+                rows_cache[ds["id"]] = fetch_imf(ds["filter"])
+            else:
+                rows_cache[ds["id"]] = fetch_csv(ds["dataflow"], ds["filter"])
+        return rows_cache[ds["id"]]
+
+    def series_of(ds_id: str):
+        """Finished series of another dataset: this run's fetch if any,
+        else its existing data file, else a fresh fetch of it."""
+        if ds_id in rows_cache:
+            rows = rows_cache[ds_id]
+            return [{"period": r["TIME_PERIOD"], "value": float(r["OBS_VALUE"])} for r in rows] if rows else []
+        path = out_dir / f"{ds_id}.json"
+        if path.exists():
+            return json.loads(path.read_text(encoding="utf-8"))["series"]
+        rows = get_rows(by_id[ds_id])
+        return [{"period": r["TIME_PERIOD"], "value": float(r["OBS_VALUE"])} for r in rows] if rows else []
+
     results, failures, confirmed_now = [], [], []
     skipped_existing = skipped_known = 0
     for ds in config["datasets"]:
@@ -128,7 +209,40 @@ def main() -> int:
                 skipped_known += 1
                 continue
         try:
-            rows = fetch_csv(ds["dataflow"], ds["filter"])
+            rows = [] if "derive_sum_of" in ds else get_rows(ds)
+            if "derive_sum_of" in ds:
+                comp = [{p["period"]: p["value"] for p in series_of(cid)} for cid in ds["derive_sum_of"]]
+                if any(not c for c in comp):
+                    raise ValueError("derived sum: a component series is empty")
+                common = sorted(set(comp[0]).intersection(*[set(c) for c in comp[1:]]))
+                if not common:
+                    raise ValueError("derived sum: components share no periods")
+                summed = [{"period": p, "value": sum(c[p] for c in comp)} for p in common]
+                payload = build_payload(ds, summed)
+                (out_dir / f"{ds_id}.json").write_text(
+                    json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8"
+                )
+                known_empty.pop(ds_id, None)
+                results.append({"id": ds_id, "latest_period": payload["latest"]["period"],
+                                "latest_value": payload["latest"]["value"]})
+                print(f"OK   {ds_id}: {payload['latest']['period']} = {payload['latest']['value']} (sum of {len(comp)} components)")
+                continue
+            if rows and "derive_share_of" in ds:
+                den = {p["period"]: p["value"] for p in series_of(ds["derive_share_of"])}
+                num = {r["TIME_PERIOD"]: float(r["OBS_VALUE"]) for r in rows}
+                common = sorted(p for p in num if p in den and den[p] != 0)
+                if not common:
+                    raise ValueError("derived share: no overlapping periods with denominator")
+                ratio = [{"period": p, "value": num[p] / den[p] * 100} for p in common]
+                payload = build_payload(ds, ratio)
+                (out_dir / f"{ds_id}.json").write_text(
+                    json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8"
+                )
+                known_empty.pop(ds_id, None)
+                results.append({"id": ds_id, "latest_period": payload["latest"]["period"],
+                                "latest_value": payload["latest"]["value"]})
+                print(f"OK   {ds_id}: {payload['latest']['period']} = {payload['latest']['value']} (share of {ds['derive_share_of']})")
+                continue
         except Exception as exc:  # failure: keep last good file, retry next fill run
             failures.append({"id": ds_id, "error": str(exc)})
             print(f"FAIL {ds_id}: {exc} (previous data file kept)", file=sys.stderr)
@@ -139,7 +253,12 @@ def main() -> int:
             confirmed_now.append(ds_id)
             print(f"EMPTY {ds_id}: OECD has no data for this key (recorded)")
             continue
-        payload = summarise(ds, rows)
+        try:
+            payload = summarise(ds, rows)
+        except Exception as exc:
+            failures.append({"id": ds_id, "error": str(exc)})
+            print(f"FAIL {ds_id}: {exc} (previous data file kept)", file=sys.stderr)
+            continue
         (out_dir / f"{ds_id}.json").write_text(
             json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8"
         )
