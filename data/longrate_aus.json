@@ -1,0 +1,165 @@
+{
+ "id": "longrate_aus",
+ "title": "澳大利亚长期利率",
+ "subtitle": "10 年期国债收益率 · 月均",
+ "source": "OECD Data Explorer — Key short-term economic indicators",
+ "unit": "%",
+ "decimals": 2,
+ "direction_good": "down",
+ "latest": {
+  "period": "2026-10",
+  "value": 5.28
+ },
+ "change_vs_prev": -0.0030000000000001137,
+ "change_vs_year_ago": 1.0460000000000003,
+ "series": [
+  {
+   "period": "2023-10",
+   "value": 4.633
+  },
+  {
+   "period": "2023-11",
+   "value": 4.578
+  },
+  {
+   "period": "2023-12",
+   "value": 4.187
+  },
+  {
+   "period": "2024-01",
+   "value": 4.148
+  },
+  {
+   "period": "2024-02",
+   "value": 4.141
+  },
+  {
+   "period": "2024-03",
+   "value": 4.045
+  },
+  {
+   "period": "2024-04",
+   "value": 4.268
+  },
+  {
+   "period": "2024-05",
+   "value": 4.325
+  },
+  {
+   "period": "2024-06",
+   "value": 4.242
+  },
+  {
+   "period": "2024-07",
+   "value": 4.326
+  },
+  {
+   "period": "2024-08",
+   "value": 3.976
+  },
+  {
+   "period": "2024-09",
+   "value": 3.922
+  },
+  {
+   "period": "2024-10",
+   "value": 4.267
+  },
+  {
+   "period": "2024-11",
+   "value": 4.544
+  },
+  {
+   "period": "2024-12",
+   "value": 4.313
+  },
+  {
+   "period": "2025-01",
+   "value": 4.481
+  },
+  {
+   "period": "2025-02",
+   "value": 4.423
+  },
+  {
+   "period": "2025-03",
+   "value": 4.421
+  },
+  {
+   "period": "2025-04",
+   "value": 4.267
+  },
+  {
+   "period": "2025-05",
+   "value": 4.35
+  },
+  {
+   "period": "2025-06",
+   "value": 4.208
+  },
+  {
+   "period": "2025-07",
+   "value": 4.291
+  },
+  {
+   "period": "2025-08",
+   "value": 4.275
+  },
+  {
+   "period": "2025-09",
+   "value": 4.298
+  },
+  {
+   "period": "2025-10",
+   "value": 4.234
+  },
+  {
+   "period": "2025-11",
+   "value": 4.416
+  },
+  {
+   "period": "2025-12",
+   "value": 4.719
+  },
+  {
+   "period": "2026-01",
+   "value": 4.75
+  },
+  {
+   "period": "2026-02",
+   "value": 4.758
+  },
+  {
+   "period": "2026-03",
+   "value": 4.926
+  },
+  {
+   "period": "2026-04",
+   "value": 4.969
+  },
+  {
+   "period": "2026-05",
+   "value": 4.982
+  },
+  {
+   "period": "2026-06",
+   "value": 4.831
+  },
+  {
+   "period": "2026-07",
+   "value": 4.919
+  },
+  {
+   "period": "2026-08",
+   "value": 5.015
+  },
+  {
+   "period": "2026-09",
+   "value": 5.283
+  },
+  {
+   "period": "2026-10",
+   "value": 5.28
+  }
+ ]
+}
