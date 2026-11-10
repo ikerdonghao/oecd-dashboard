@@ -114,6 +114,30 @@
       "unit": "pp",
       "decimals": 2,
       "direction_good": "down"
+    },
+    {
+      "id": "cpi_usa",
+      "title": "美国 CPI 通胀",
+      "subtitle": "消费者物价指数 · 同比 %",
+      "source": "OECD Data Explorer — G20 consumer price indices",
+      "dataflow": "OECD.SDD.TPS,DSD_G20_PRICES@DF_G20_PRICES,1.0",
+      "filter": "USA.M.N.CPI.PA._T.N.GY",
+      "unit": "%",
+      "decimals": 1,
+      "direction_good": "down",
+      "note": "G20 价格库；加拿大 CPI 在 COICOP2018 库，同口径（全国、全项目、同比）。已验证 2026-11-09。"
+    },
+    {
+      "id": "cpi_chn",
+      "title": "中国 CPI 通胀",
+      "subtitle": "消费者物价指数 · 同比 %",
+      "source": "OECD Data Explorer — G20 consumer price indices",
+      "dataflow": "OECD.SDD.TPS,DSD_G20_PRICES@DF_G20_PRICES,1.0",
+      "filter": "CHN.M.N.CPI.PA._T.N.GY",
+      "unit": "%",
+      "decimals": 1,
+      "direction_good": "down",
+      "note": "G20 价格库。已验证 2026-11-09。"
     }
   ],
   "todo": []
