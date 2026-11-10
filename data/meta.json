@@ -1,5 +1,5 @@
 {
- "updated_at_utc": "2026-11-09 22:44 UTC",
+ "updated_at_utc": "2026-11-10 01:42 UTC",
  "succeeded": [
   {
    "id": "cpi_can",
@@ -25,6 +25,31 @@
    "id": "sahm_can",
    "latest_period": "2026-10",
    "latest_value": 0.1
+  },
+  {
+   "id": "cli_usa",
+   "latest_period": "2026-10",
+   "latest_value": 100.9566
+  },
+  {
+   "id": "cli_chn",
+   "latest_period": "2026-10",
+   "latest_value": 97.13058
+  },
+  {
+   "id": "unemployment_usa",
+   "latest_period": "2026-10",
+   "latest_value": 4.1
+  },
+  {
+   "id": "retail_usa",
+   "latest_period": "2026-08",
+   "latest_value": 116.45243233336899
+  },
+  {
+   "id": "sahm_usa",
+   "latest_period": "2026-10",
+   "latest_value": -8.881784e-16
   }
  ],
  "failed": []
