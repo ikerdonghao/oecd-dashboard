@@ -10,6 +10,8 @@ import csv
 import io
 import json
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -25,8 +27,22 @@ def fetch_csv(dataflow: str, filt: str) -> list[dict]:
     # makes the API return 403 (verified 2026-11-09). We fetch the full
     # series and trim locally to HISTORY_MONTHS.
     req = urllib.request.Request(url, headers={"User-Agent": "oecd-dashboard-etl"})
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        text = resp.read().decode("utf-8")
+    # OECD throttles bursts (HTTP 429 seen 2026-11-10 when the registry grew
+    # to 73 series): pace requests and retry throttled/5xx responses with
+    # backoff instead of failing the dataset for the day.
+    text = None
+    for attempt, wait in enumerate((0, 5, 15, 30, 60)):
+        if wait:
+            time.sleep(wait)
+        try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                text = resp.read().decode("utf-8")
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503, 504) and attempt < 4:
+                continue
+            raise
+    time.sleep(1.2)
     if "NoRecordsFound" in text:
         return []
     rows = list(csv.DictReader(io.StringIO(text)))
