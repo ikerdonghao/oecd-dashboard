@@ -1,0 +1,89 @@
+{
+ "id": "cpi_aus",
+ "title": "澳大利亚 CPI 通胀",
+ "subtitle": "消费者物价指数 · 同比 %",
+ "source": "OECD Data Explorer — Consumer price indices",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "down",
+ "latest": {
+  "period": "2026-09",
+  "value": 4.34
+ },
+ "change_vs_prev": 0.3721449999999997,
+ "change_vs_year_ago": 0.7559929999999997,
+ "series": [
+  {
+   "period": "2025-04",
+   "value": 2.365145
+  },
+  {
+   "period": "2025-05",
+   "value": 2.110845
+  },
+  {
+   "period": "2025-06",
+   "value": 1.88562
+  },
+  {
+   "period": "2025-07",
+   "value": 2.955462
+  },
+  {
+   "period": "2025-08",
+   "value": 3.171313
+  },
+  {
+   "period": "2025-09",
+   "value": 3.584007
+  },
+  {
+   "period": "2025-10",
+   "value": 3.810216
+  },
+  {
+   "period": "2025-11",
+   "value": 3.444352
+  },
+  {
+   "period": "2025-12",
+   "value": 3.761176
+  },
+  {
+   "period": "2026-01",
+   "value": 3.843001
+  },
+  {
+   "period": "2026-02",
+   "value": 3.726835
+  },
+  {
+   "period": "2026-03",
+   "value": 4.573295
+  },
+  {
+   "period": "2026-04",
+   "value": 4.175111
+  },
+  {
+   "period": "2026-05",
+   "value": 3.961303
+  },
+  {
+   "period": "2026-06",
+   "value": 3.752288
+  },
+  {
+   "period": "2026-07",
+   "value": 3.452775
+  },
+  {
+   "period": "2026-08",
+   "value": 3.967855
+  },
+  {
+   "period": "2026-09",
+   "value": 4.34
+  }
+ ]
+}
