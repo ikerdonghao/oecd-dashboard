@@ -1,359 +1,71 @@
 {
- "updated_at_utc": "2026-11-10 16:30 UTC",
+ "updated_at_utc": "2026-11-10 19:52 UTC",
+ "mode": "fill",
+ "attempted": 12,
+ "skipped_existing": 61,
+ "skipped_known_empty": 0,
+ "confirmed_empty_this_run": [],
  "succeeded": [
   {
-   "id": "cpi_can",
-   "latest_period": "2026-09",
-   "latest_value": 3.092783
-  },
-  {
-   "id": "cli_can",
-   "latest_period": "2026-10",
-   "latest_value": 101.7892
-  },
-  {
-   "id": "unemployment_can",
-   "latest_period": "2026-10",
-   "latest_value": 6.7
-  },
-  {
-   "id": "retail_can",
-   "latest_period": "2026-08",
-   "latest_value": 132.042706233964
-  },
-  {
-   "id": "sahm_can",
-   "latest_period": "2026-10",
-   "latest_value": 0.1
-  },
-  {
-   "id": "cli_usa",
-   "latest_period": "2026-10",
-   "latest_value": 100.9566
-  },
-  {
-   "id": "cli_chn",
-   "latest_period": "2026-10",
-   "latest_value": 97.13058
-  },
-  {
-   "id": "unemployment_usa",
-   "latest_period": "2026-10",
-   "latest_value": 4.1
-  },
-  {
-   "id": "retail_usa",
-   "latest_period": "2026-08",
-   "latest_value": 116.45243233336899
-  },
-  {
-   "id": "sahm_usa",
-   "latest_period": "2026-10",
-   "latest_value": -8.881784e-16
-  },
-  {
-   "id": "cpi_usa",
-   "latest_period": "2026-09",
-   "latest_value": 3.737685
-  },
-  {
-   "id": "cpi_chn",
-   "latest_period": "2026-09",
-   "latest_value": 0.9
-  },
-  {
-   "id": "cli_fra",
-   "latest_period": "2026-10",
-   "latest_value": 100.7311
-  },
-  {
-   "id": "unemployment_fra",
-   "latest_period": "2026-09",
-   "latest_value": 8.5
-  },
-  {
-   "id": "sahm_fra",
-   "latest_period": "2026-09",
-   "latest_value": 0.5333334
-  },
-  {
-   "id": "cli_deu",
-   "latest_period": "2026-10",
-   "latest_value": 101.1611
-  },
-  {
-   "id": "unemployment_deu",
-   "latest_period": "2026-09",
-   "latest_value": 4.1
-  },
-  {
-   "id": "sahm_deu",
-   "latest_period": "2026-09",
-   "latest_value": 0.2666667
-  },
-  {
-   "id": "cli_ita",
-   "latest_period": "2026-10",
-   "latest_value": 100.0433
-  },
-  {
-   "id": "unemployment_ita",
-   "latest_period": "2026-09",
-   "latest_value": 6.3
-  },
-  {
-   "id": "sahm_ita",
-   "latest_period": "2026-09",
-   "latest_value": 0.6333333
-  },
-  {
-   "id": "cli_jpn",
-   "latest_period": "2026-10",
-   "latest_value": 100.2095
-  },
-  {
-   "id": "unemployment_jpn",
-   "latest_period": "2026-09",
-   "latest_value": 2.4
-  },
-  {
-   "id": "sahm_jpn",
-   "latest_period": "2026-09",
-   "latest_value": -0.03333334
-  },
-  {
-   "id": "cli_gbr",
-   "latest_period": "2026-10",
-   "latest_value": 101.4263
-  },
-  {
-   "id": "unemployment_gbr",
-   "latest_period": "2026-07",
-   "latest_value": 4.7
-  },
-  {
-   "id": "sahm_gbr",
-   "latest_period": "2026-07",
-   "latest_value": 0.1
-  },
-  {
-   "id": "cli_aus",
-   "latest_period": "2026-10",
-   "latest_value": 99.97236
-  },
-  {
-   "id": "unemployment_aus",
-   "latest_period": "2026-09",
-   "latest_value": 4.7183487
-  },
-  {
-   "id": "sahm_aus",
-   "latest_period": "2026-09",
-   "latest_value": 0.4518286
-  },
-  {
-   "id": "retail_fra",
-   "latest_period": "2026-09",
-   "latest_value": 130.76077176847
-  },
-  {
-   "id": "retail_deu",
-   "latest_period": "2026-09",
-   "latest_value": 114.79278400780099
-  },
-  {
-   "id": "retail_ita",
-   "latest_period": "2026-09",
-   "latest_value": 97.860962566845
-  },
-  {
-   "id": "retail_jpn",
-   "latest_period": "2026-06",
-   "latest_value": 100.16127884794399
-  },
-  {
-   "id": "retail_gbr",
-   "latest_period": "2026-09",
-   "latest_value": 113.168612544122
-  },
-  {
-   "id": "cpi_fra",
-   "latest_period": "2026-09",
-   "latest_value": 3.080308
-  },
-  {
-   "id": "cpi_ita",
-   "latest_period": "2026-09",
-   "latest_value": 4.175142
-  },
-  {
-   "id": "cpi_jpn",
-   "latest_period": "2026-09",
-   "latest_value": 2.1
-  },
-  {
-   "id": "cpi_aus",
-   "latest_period": "2026-09",
-   "latest_value": 4.34
-  },
-  {
-   "id": "gdp_can",
-   "latest_period": "2026-Q3",
-   "latest_value": 0.954838472991981
-  },
-  {
-   "id": "gdp_usa",
-   "latest_period": "2026-Q3",
-   "latest_value": 2.06573923755358
-  },
-  {
-   "id": "gdp_chn",
-   "latest_period": "2026-Q3",
-   "latest_value": 4.5
-  },
-  {
-   "id": "gdp_gbr",
-   "latest_period": "2026-Q2",
-   "latest_value": 1.37259948282358
-  },
-  {
-   "id": "gdp_fra",
-   "latest_period": "2026-Q3",
-   "latest_value": -0.071080985045557
-  },
-  {
-   "id": "gdp_deu",
-   "latest_period": "2026-Q3",
-   "latest_value": 1.2457220078264
-  },
-  {
-   "id": "gdp_ita",
-   "latest_period": "2026-Q3",
-   "latest_value": 0.751036796989735
-  },
-  {
-   "id": "gdp_jpn",
-   "latest_period": "2026-Q2",
-   "latest_value": 0.726654038076857
-  },
-  {
-   "id": "gdp_aus",
-   "latest_period": "2026-Q2",
-   "latest_value": 2.13763576520625
-  },
-  {
-   "id": "production_can",
-   "latest_period": "2026-08",
-   "latest_value": 109.22935643762
-  },
-  {
-   "id": "production_usa",
-   "latest_period": "2026-09",
-   "latest_value": 102.94998618840701
-  },
-  {
-   "id": "production_gbr",
-   "latest_period": "2026-08",
-   "latest_value": 102.179014415018
-  },
-  {
-   "id": "production_fra",
-   "latest_period": "2026-09",
-   "latest_value": 99.449188449254
-  },
-  {
-   "id": "production_deu",
-   "latest_period": "2026-09",
-   "latest_value": 89.1108247422678
-  },
-  {
-   "id": "production_ita",
-   "latest_period": "2026-08",
-   "latest_value": 97.7099236641221
-  },
-  {
-   "id": "production_jpn",
-   "latest_period": "2026-09",
-   "latest_value": 94.5578332968707
-  },
-  {
-   "id": "longrate_can",
-   "latest_period": "2026-10",
-   "latest_value": 3.903
-  },
-  {
-   "id": "longrate_usa",
-   "latest_period": "2026-10",
-   "latest_value": 5.13
-  },
-  {
-   "id": "longrate_chn",
-   "latest_period": "2026-09",
-   "latest_value": 1.68
-  },
-  {
-   "id": "longrate_gbr",
-   "latest_period": "2026-10",
-   "latest_value": 5.3393
-  },
-  {
-   "id": "longrate_fra",
-   "latest_period": "2026-10",
-   "latest_value": 4.9016
-  }
- ],
- "failed": [
-  {
    "id": "longrate_deu",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-10",
+   "latest_value": 3.41590909090909
   },
   {
    "id": "longrate_ita",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 4.3622
   },
   {
    "id": "longrate_jpn",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "id": "longrate_aus",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-10",
+   "latest_value": 2.755
   },
   {
    "id": "currentaccount_can",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-Q2",
+   "latest_value": 1.02812329101847
   },
   {
    "id": "currentaccount_usa",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-Q2",
+   "latest_value": -3.0221143425535
   },
   {
    "id": "currentaccount_chn",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-Q2",
+   "latest_value": 4.0735140728398
   },
   {
    "id": "currentaccount_gbr",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-Q2",
+   "latest_value": -2.53202184459544
   },
   {
    "id": "currentaccount_fra",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-Q2",
+   "latest_value": -0.183646279640017
   },
   {
    "id": "currentaccount_deu",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-Q2",
+   "latest_value": 4.86479461049827
   },
   {
    "id": "currentaccount_ita",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-Q2",
+   "latest_value": -0.577923607128419
   },
   {
    "id": "currentaccount_jpn",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-Q2",
+   "latest_value": 5.08277375870866
   },
   {
    "id": "currentaccount_aus",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-Q2",
+   "latest_value": -3.66598339129053
   }
- ]
+ ],
+ "failed": []
 }
