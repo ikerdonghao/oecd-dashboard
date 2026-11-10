@@ -1,0 +1,165 @@
+{
+ "id": "longrate_fra",
+ "title": "法国长期利率",
+ "subtitle": "10 年期国债收益率 · 月均",
+ "source": "OECD Data Explorer — Key short-term economic indicators",
+ "unit": "%",
+ "decimals": 2,
+ "direction_good": "down",
+ "latest": {
+  "period": "2026-10",
+  "value": 4.9016
+ },
+ "change_vs_prev": 0.4245000000000001,
+ "change_vs_year_ago": 1.4639000000000002,
+ "series": [
+  {
+   "period": "2023-10",
+   "value": 3.4496
+  },
+  {
+   "period": "2023-11",
+   "value": 3.1914
+  },
+  {
+   "period": "2023-12",
+   "value": 2.6549
+  },
+  {
+   "period": "2024-01",
+   "value": 2.7365
+  },
+  {
+   "period": "2024-02",
+   "value": 2.8547
+  },
+  {
+   "period": "2024-03",
+   "value": 2.8236
+  },
+  {
+   "period": "2024-04",
+   "value": 2.9749
+  },
+  {
+   "period": "2024-05",
+   "value": 3.031
+  },
+  {
+   "period": "2024-06",
+   "value": 3.1494
+  },
+  {
+   "period": "2024-07",
+   "value": 3.1547
+  },
+  {
+   "period": "2024-08",
+   "value": 2.9681
+  },
+  {
+   "period": "2024-09",
+   "value": 2.9126
+  },
+  {
+   "period": "2024-10",
+   "value": 2.9983
+  },
+  {
+   "period": "2024-11",
+   "value": 3.086
+  },
+  {
+   "period": "2024-12",
+   "value": 3.0164
+  },
+  {
+   "period": "2025-01",
+   "value": 3.3141
+  },
+  {
+   "period": "2025-02",
+   "value": 3.1526
+  },
+  {
+   "period": "2025-03",
+   "value": 3.4784
+  },
+  {
+   "period": "2025-04",
+   "value": 3.2953
+  },
+  {
+   "period": "2025-05",
+   "value": 3.2606
+  },
+  {
+   "period": "2025-06",
+   "value": 3.2362
+  },
+  {
+   "period": "2025-07",
+   "value": 3.3472
+  },
+  {
+   "period": "2025-08",
+   "value": 3.4056
+  },
+  {
+   "period": "2025-09",
+   "value": 3.5172
+  },
+  {
+   "period": "2025-10",
+   "value": 3.4377
+  },
+  {
+   "period": "2025-11",
+   "value": 3.4386
+  },
+  {
+   "period": "2025-12",
+   "value": 3.5542
+  },
+  {
+   "period": "2026-01",
+   "value": 3.5028
+  },
+  {
+   "period": "2026-02",
+   "value": 3.3535
+  },
+  {
+   "period": "2026-03",
+   "value": 3.6011
+  },
+  {
+   "period": "2026-04",
+   "value": 3.6749
+  },
+  {
+   "period": "2026-05",
+   "value": 3.7416
+  },
+  {
+   "period": "2026-06",
+   "value": 3.671
+  },
+  {
+   "period": "2026-07",
+   "value": 3.8853
+  },
+  {
+   "period": "2026-08",
+   "value": 4.0314
+  },
+  {
+   "period": "2026-09",
+   "value": 4.4771
+  },
+  {
+   "period": "2026-10",
+   "value": 4.9016
+  }
+ ]
+}

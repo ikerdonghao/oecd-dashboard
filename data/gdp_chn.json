@@ -1,0 +1,165 @@
+{
+ "id": "gdp_chn",
+ "title": "中国实际GDP增长",
+ "subtitle": "经济产出 · 实际同比 · 季度",
+ "source": "OECD Data Explorer — Key short-term economic indicators",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "latest": {
+  "period": "2026-Q3",
+  "value": 4.5
+ },
+ "change_vs_prev": 0.20000000000000018,
+ "change_vs_year_ago": -0.5,
+ "series": [
+  {
+   "period": "2017-Q3",
+   "value": 6.9
+  },
+  {
+   "period": "2017-Q4",
+   "value": 6.8
+  },
+  {
+   "period": "2018-Q1",
+   "value": 6.9
+  },
+  {
+   "period": "2018-Q2",
+   "value": 6.9
+  },
+  {
+   "period": "2018-Q3",
+   "value": 6.7
+  },
+  {
+   "period": "2018-Q4",
+   "value": 6.5
+  },
+  {
+   "period": "2019-Q1",
+   "value": 6.4
+  },
+  {
+   "period": "2019-Q2",
+   "value": 6.1
+  },
+  {
+   "period": "2019-Q3",
+   "value": 6.0
+  },
+  {
+   "period": "2019-Q4",
+   "value": 5.9
+  },
+  {
+   "period": "2020-Q1",
+   "value": -6.8
+  },
+  {
+   "period": "2020-Q2",
+   "value": 3.2
+  },
+  {
+   "period": "2020-Q3",
+   "value": 4.9
+  },
+  {
+   "period": "2020-Q4",
+   "value": 6.5
+  },
+  {
+   "period": "2021-Q1",
+   "value": 18.9
+  },
+  {
+   "period": "2021-Q2",
+   "value": 8.1
+  },
+  {
+   "period": "2021-Q3",
+   "value": 5.5
+  },
+  {
+   "period": "2021-Q4",
+   "value": 4.5
+  },
+  {
+   "period": "2022-Q1",
+   "value": 4.8
+  },
+  {
+   "period": "2022-Q2",
+   "value": 0.8
+  },
+  {
+   "period": "2022-Q3",
+   "value": 4.0
+  },
+  {
+   "period": "2022-Q4",
+   "value": 3.0
+  },
+  {
+   "period": "2023-Q1",
+   "value": 4.7
+  },
+  {
+   "period": "2023-Q2",
+   "value": 6.5
+  },
+  {
+   "period": "2023-Q3",
+   "value": 5.0
+  },
+  {
+   "period": "2023-Q4",
+   "value": 5.3
+  },
+  {
+   "period": "2024-Q1",
+   "value": 5.3
+  },
+  {
+   "period": "2024-Q2",
+   "value": 4.7
+  },
+  {
+   "period": "2024-Q3",
+   "value": 4.6
+  },
+  {
+   "period": "2024-Q4",
+   "value": 5.4
+  },
+  {
+   "period": "2025-Q1",
+   "value": 5.4
+  },
+  {
+   "period": "2025-Q2",
+   "value": 5.2
+  },
+  {
+   "period": "2025-Q3",
+   "value": 4.8
+  },
+  {
+   "period": "2025-Q4",
+   "value": 4.5
+  },
+  {
+   "period": "2026-Q1",
+   "value": 5.0
+  },
+  {
+   "period": "2026-Q2",
+   "value": 4.3
+  },
+  {
+   "period": "2026-Q3",
+   "value": 4.5
+  }
+ ]
+}
