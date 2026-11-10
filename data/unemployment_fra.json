@@ -1,0 +1,165 @@
+{
+ "id": "unemployment_fra",
+ "title": "法国失业率",
+ "subtitle": "失业人数占劳动力 % · 月度",
+ "source": "OECD Data Explorer — Key Economic Indicators",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "down",
+ "latest": {
+  "period": "2026-09",
+  "value": 8.5
+ },
+ "change_vs_prev": 0.1999999999999993,
+ "change_vs_year_ago": 0.5999999999999996,
+ "series": [
+  {
+   "period": "2023-09",
+   "value": 7.4
+  },
+  {
+   "period": "2023-10",
+   "value": 7.5
+  },
+  {
+   "period": "2023-11",
+   "value": 7.6
+  },
+  {
+   "period": "2023-12",
+   "value": 7.7
+  },
+  {
+   "period": "2024-01",
+   "value": 7.6
+  },
+  {
+   "period": "2024-02",
+   "value": 7.5
+  },
+  {
+   "period": "2024-03",
+   "value": 7.4
+  },
+  {
+   "period": "2024-04",
+   "value": 7.3
+  },
+  {
+   "period": "2024-05",
+   "value": 7.4
+  },
+  {
+   "period": "2024-06",
+   "value": 7.5
+  },
+  {
+   "period": "2024-07",
+   "value": 7.5
+  },
+  {
+   "period": "2024-08",
+   "value": 7.5
+  },
+  {
+   "period": "2024-09",
+   "value": 7.5
+  },
+  {
+   "period": "2024-10",
+   "value": 7.4
+  },
+  {
+   "period": "2024-11",
+   "value": 7.3
+  },
+  {
+   "period": "2024-12",
+   "value": 7.3
+  },
+  {
+   "period": "2025-01",
+   "value": 7.3
+  },
+  {
+   "period": "2025-02",
+   "value": 7.5
+  },
+  {
+   "period": "2025-03",
+   "value": 7.6
+  },
+  {
+   "period": "2025-04",
+   "value": 7.5
+  },
+  {
+   "period": "2025-05",
+   "value": 7.6
+  },
+  {
+   "period": "2025-06",
+   "value": 7.7
+  },
+  {
+   "period": "2025-07",
+   "value": 7.8
+  },
+  {
+   "period": "2025-08",
+   "value": 7.8
+  },
+  {
+   "period": "2025-09",
+   "value": 7.9
+  },
+  {
+   "period": "2025-10",
+   "value": 8.0
+  },
+  {
+   "period": "2025-11",
+   "value": 7.9
+  },
+  {
+   "period": "2025-12",
+   "value": 8.0
+  },
+  {
+   "period": "2026-01",
+   "value": 8.0
+  },
+  {
+   "period": "2026-02",
+   "value": 8.2
+  },
+  {
+   "period": "2026-03",
+   "value": 8.2
+  },
+  {
+   "period": "2026-04",
+   "value": 8.3
+  },
+  {
+   "period": "2026-05",
+   "value": 8.4
+  },
+  {
+   "period": "2026-06",
+   "value": 8.3
+  },
+  {
+   "period": "2026-07",
+   "value": 8.3
+  },
+  {
+   "period": "2026-08",
+   "value": 8.3
+  },
+  {
+   "period": "2026-09",
+   "value": 8.5
+  }
+ ]
+}
