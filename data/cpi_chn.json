@@ -1,0 +1,165 @@
+{
+ "id": "cpi_chn",
+ "title": "中国 CPI 通胀",
+ "subtitle": "消费者物价指数 · 同比 %",
+ "source": "OECD Data Explorer — G20 consumer price indices",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "down",
+ "latest": {
+  "period": "2026-09",
+  "value": 0.9
+ },
+ "change_vs_prev": 0.09999999999999998,
+ "change_vs_year_ago": 1.2,
+ "series": [
+  {
+   "period": "2023-09",
+   "value": 0.0
+  },
+  {
+   "period": "2023-10",
+   "value": -0.2
+  },
+  {
+   "period": "2023-11",
+   "value": -0.5
+  },
+  {
+   "period": "2023-12",
+   "value": -0.3
+  },
+  {
+   "period": "2024-01",
+   "value": -0.8
+  },
+  {
+   "period": "2024-02",
+   "value": 0.7
+  },
+  {
+   "period": "2024-03",
+   "value": 0.1
+  },
+  {
+   "period": "2024-04",
+   "value": 0.3
+  },
+  {
+   "period": "2024-05",
+   "value": 0.3
+  },
+  {
+   "period": "2024-06",
+   "value": 0.2
+  },
+  {
+   "period": "2024-07",
+   "value": 0.5
+  },
+  {
+   "period": "2024-08",
+   "value": 0.6
+  },
+  {
+   "period": "2024-09",
+   "value": 0.4
+  },
+  {
+   "period": "2024-10",
+   "value": 0.3
+  },
+  {
+   "period": "2024-11",
+   "value": 0.2
+  },
+  {
+   "period": "2024-12",
+   "value": 0.1
+  },
+  {
+   "period": "2025-01",
+   "value": 0.5
+  },
+  {
+   "period": "2025-02",
+   "value": -0.7
+  },
+  {
+   "period": "2025-03",
+   "value": -0.1
+  },
+  {
+   "period": "2025-04",
+   "value": -0.1
+  },
+  {
+   "period": "2025-05",
+   "value": -0.1
+  },
+  {
+   "period": "2025-06",
+   "value": 0.1
+  },
+  {
+   "period": "2025-07",
+   "value": 0.0
+  },
+  {
+   "period": "2025-08",
+   "value": -0.4
+  },
+  {
+   "period": "2025-09",
+   "value": -0.3
+  },
+  {
+   "period": "2025-10",
+   "value": 0.2
+  },
+  {
+   "period": "2025-11",
+   "value": 0.7
+  },
+  {
+   "period": "2025-12",
+   "value": 0.8
+  },
+  {
+   "period": "2026-01",
+   "value": 0.2
+  },
+  {
+   "period": "2026-02",
+   "value": 1.3
+  },
+  {
+   "period": "2026-03",
+   "value": 1.0
+  },
+  {
+   "period": "2026-04",
+   "value": 1.2
+  },
+  {
+   "period": "2026-05",
+   "value": 1.2
+  },
+  {
+   "period": "2026-06",
+   "value": 1.0
+  },
+  {
+   "period": "2026-07",
+   "value": 0.5
+  },
+  {
+   "period": "2026-08",
+   "value": 0.8
+  },
+  {
+   "period": "2026-09",
+   "value": 0.9
+  }
+ ]
+}

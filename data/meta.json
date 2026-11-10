@@ -1,5 +1,5 @@
 {
- "updated_at_utc": "2026-11-10 01:42 UTC",
+ "updated_at_utc": "2026-11-10 01:47 UTC",
  "succeeded": [
   {
    "id": "cpi_can",
@@ -50,6 +50,16 @@
    "id": "sahm_usa",
    "latest_period": "2026-10",
    "latest_value": -8.881784e-16
+  },
+  {
+   "id": "cpi_usa",
+   "latest_period": "2026-09",
+   "latest_value": 3.737685
+  },
+  {
+   "id": "cpi_chn",
+   "latest_period": "2026-09",
+   "latest_value": 0.9
   }
  ],
  "failed": []
