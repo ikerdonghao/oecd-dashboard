@@ -1,5 +1,5 @@
 {
- "updated_at_utc": "2026-11-10 03:14 UTC",
+ "updated_at_utc": "2026-11-10 03:13 UTC",
  "succeeded": [
   {
    "id": "cpi_can",
@@ -100,84 +100,102 @@
    "id": "unemployment_ita",
    "latest_period": "2026-09",
    "latest_value": 6.3
-  }
- ],
- "failed": [
+  },
   {
    "id": "sahm_ita",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 0.6333333
   },
   {
    "id": "cli_jpn",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-10",
+   "latest_value": 100.2095
   },
   {
    "id": "unemployment_jpn",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 2.4
   },
   {
    "id": "sahm_jpn",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": -0.03333334
   },
   {
    "id": "cli_gbr",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-10",
+   "latest_value": 101.4263
   },
   {
    "id": "unemployment_gbr",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-07",
+   "latest_value": 4.7
   },
   {
    "id": "sahm_gbr",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-07",
+   "latest_value": 0.1
   },
   {
    "id": "cli_aus",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-10",
+   "latest_value": 99.97236
   },
   {
    "id": "unemployment_aus",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 4.7183487
   },
   {
    "id": "sahm_aus",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 0.4518286
   },
   {
    "id": "retail_fra",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 130.76077176847
   },
   {
    "id": "retail_deu",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 114.79278400780099
   },
   {
    "id": "retail_ita",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 97.860962566845
   },
   {
    "id": "retail_jpn",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-06",
+   "latest_value": 100.16127884794399
   },
   {
    "id": "retail_gbr",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 113.168612544122
   },
   {
    "id": "cpi_fra",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 3.080308
   },
   {
    "id": "cpi_ita",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 4.175142
   },
   {
    "id": "cpi_jpn",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 2.1
   },
   {
    "id": "cpi_aus",
-   "error": "HTTP Error 429: Too Many Requests"
+   "latest_period": "2026-09",
+   "latest_value": 4.34
   }
- ]
+ ],
+ "failed": []
 }
