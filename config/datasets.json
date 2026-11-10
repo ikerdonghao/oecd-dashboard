@@ -59,6 +59,61 @@
       "decimals": 2,
       "direction_good": "down",
       "note": "LORTRESA = 萨姆规则指标；≥ +0.50 历史上触发衰退信号。已验证 2026-11-09。"
+    },
+    {
+      "id": "cli_usa",
+      "title": "美国综合领先指标 CLI",
+      "subtitle": "景气先行指标 · 长期趋势 = 100",
+      "source": "OECD Data Explorer — Composite leading indicators",
+      "dataflow": "OECD.SDD.STES,DSD_STES@DF_CLI,4.1",
+      "filter": "USA.M.LI.IX._Z.AA.IX._Z.H",
+      "unit": "index",
+      "decimals": 2,
+      "direction_good": "up"
+    },
+    {
+      "id": "cli_chn",
+      "title": "中国综合领先指标 CLI",
+      "subtitle": "景气先行指标 · 长期趋势 = 100",
+      "source": "OECD Data Explorer — Composite leading indicators",
+      "dataflow": "OECD.SDD.STES,DSD_STES@DF_CLI,4.1",
+      "filter": "CHN.M.LI.IX._Z.AA.IX._Z.H",
+      "unit": "index",
+      "decimals": 2,
+      "direction_good": "up"
+    },
+    {
+      "id": "unemployment_usa",
+      "title": "美国失业率",
+      "subtitle": "失业人数占劳动力 % · 月度",
+      "source": "OECD Data Explorer — Key Economic Indicators",
+      "dataflow": "OECD.SDD.STES,DSD_KEI@DF_KEI,4.0",
+      "filter": "USA.M.UNEMP.PT_LF._T.Y._Z",
+      "unit": "%",
+      "decimals": 1,
+      "direction_good": "down"
+    },
+    {
+      "id": "retail_usa",
+      "title": "美国零售贸易量",
+      "subtitle": "零售量指数 · 2015 = 100",
+      "source": "OECD Data Explorer — Key Economic Indicators",
+      "dataflow": "OECD.SDD.STES,DSD_KEI@DF_KEI,4.0",
+      "filter": "USA.M.TOVM.IX.G47.Y._Z",
+      "unit": "index",
+      "decimals": 1,
+      "direction_good": "up"
+    },
+    {
+      "id": "sahm_usa",
+      "title": "美国萨姆规则衰退指标",
+      "subtitle": "失业率3月均值 − 过去12个月低点 · 百分点",
+      "source": "OECD Data Explorer — Sahm rule recession indicator",
+      "dataflow": "OECD.SDD.STES,DSD_STES@DF_SAHM,1.0",
+      "filter": "USA.M.LORTRESA.PD._T.Y._Z._Z._Z",
+      "unit": "pp",
+      "decimals": 2,
+      "direction_good": "down"
     }
   ],
   "todo": []
