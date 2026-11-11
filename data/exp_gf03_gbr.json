@@ -1,0 +1,90 @@
+{
+ "id": "exp_gf03_gbr",
+ "title": "英国公共秩序与安全支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 2.152
+ },
+ "change_vs_prev": 0.0040000000000000036,
+ "change_vs_year_ago": 0.0040000000000000036,
+ "series": [
+  {
+   "period": "2007",
+   "value": 2.279
+  },
+  {
+   "period": "2008",
+   "value": 2.31
+  },
+  {
+   "period": "2009",
+   "value": 2.499
+  },
+  {
+   "period": "2010",
+   "value": 2.458
+  },
+  {
+   "period": "2011",
+   "value": 2.317
+  },
+  {
+   "period": "2012",
+   "value": 2.203
+  },
+  {
+   "period": "2013",
+   "value": 2.034
+  },
+  {
+   "period": "2014",
+   "value": 1.904
+  },
+  {
+   "period": "2015",
+   "value": 1.866
+  },
+  {
+   "period": "2016",
+   "value": 1.791
+  },
+  {
+   "period": "2017",
+   "value": 1.797
+  },
+  {
+   "period": "2018",
+   "value": 1.788
+  },
+  {
+   "period": "2019",
+   "value": 1.772
+  },
+  {
+   "period": "2020",
+   "value": 2.036
+  },
+  {
+   "period": "2021",
+   "value": 2.044
+  },
+  {
+   "period": "2022",
+   "value": 2.043
+  },
+  {
+   "period": "2023",
+   "value": 2.148
+  },
+  {
+   "period": "2024",
+   "value": 2.152
+  }
+ ]
+}

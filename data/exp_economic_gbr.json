@@ -1,0 +1,90 @@
+{
+ "id": "exp_economic_gbr",
+ "title": "英国经济事务支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 3.97
+ },
+ "change_vs_prev": -0.9259999999999997,
+ "change_vs_year_ago": -0.9259999999999997,
+ "series": [
+  {
+   "period": "2007",
+   "value": 2.868
+  },
+  {
+   "period": "2008",
+   "value": 4.875
+  },
+  {
+   "period": "2009",
+   "value": 3.984
+  },
+  {
+   "period": "2010",
+   "value": 3.253
+  },
+  {
+   "period": "2011",
+   "value": 2.885
+  },
+  {
+   "period": "2012",
+   "value": 3.431
+  },
+  {
+   "period": "2013",
+   "value": 2.832
+  },
+  {
+   "period": "2014",
+   "value": 2.936
+  },
+  {
+   "period": "2015",
+   "value": 3.023
+  },
+  {
+   "period": "2016",
+   "value": 3.011
+  },
+  {
+   "period": "2017",
+   "value": 3.321
+  },
+  {
+   "period": "2018",
+   "value": 3.313
+  },
+  {
+   "period": "2019",
+   "value": 3.471
+  },
+  {
+   "period": "2020",
+   "value": 8.345
+  },
+  {
+   "period": "2021",
+   "value": 5.856
+  },
+  {
+   "period": "2022",
+   "value": 4.568
+  },
+  {
+   "period": "2023",
+   "value": 4.896
+  },
+  {
+   "period": "2024",
+   "value": 3.97
+  }
+ ]
+}

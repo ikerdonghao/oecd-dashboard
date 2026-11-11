@@ -1,0 +1,90 @@
+{
+ "id": "exp_gf08_fra",
+ "title": "法国休闲文化与宗教支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 1.475
+ },
+ "change_vs_prev": 0.010000000000000009,
+ "change_vs_year_ago": 0.010000000000000009,
+ "series": [
+  {
+   "period": "2007",
+   "value": 1.486
+  },
+  {
+   "period": "2008",
+   "value": 1.502
+  },
+  {
+   "period": "2009",
+   "value": 1.598
+  },
+  {
+   "period": "2010",
+   "value": 1.609
+  },
+  {
+   "period": "2011",
+   "value": 1.598
+  },
+  {
+   "period": "2012",
+   "value": 1.607
+  },
+  {
+   "period": "2013",
+   "value": 1.636
+  },
+  {
+   "period": "2014",
+   "value": 1.581
+  },
+  {
+   "period": "2015",
+   "value": 1.473
+  },
+  {
+   "period": "2016",
+   "value": 1.436
+  },
+  {
+   "period": "2017",
+   "value": 1.444
+  },
+  {
+   "period": "2018",
+   "value": 1.432
+  },
+  {
+   "period": "2019",
+   "value": 1.457
+  },
+  {
+   "period": "2020",
+   "value": 1.461
+  },
+  {
+   "period": "2021",
+   "value": 1.441
+  },
+  {
+   "period": "2022",
+   "value": 1.449
+  },
+  {
+   "period": "2023",
+   "value": 1.465
+  },
+  {
+   "period": "2024",
+   "value": 1.475
+  }
+ ]
+}

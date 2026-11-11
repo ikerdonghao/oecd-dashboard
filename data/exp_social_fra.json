@@ -1,0 +1,90 @@
+{
+ "id": "exp_social_fra",
+ "title": "法国社会保障支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 23.735
+ },
+ "change_vs_prev": 0.4579999999999984,
+ "change_vs_year_ago": 0.4579999999999984,
+ "series": [
+  {
+   "period": "2007",
+   "value": 21.886
+  },
+  {
+   "period": "2008",
+   "value": 22.033
+  },
+  {
+   "period": "2009",
+   "value": 23.791
+  },
+  {
+   "period": "2010",
+   "value": 23.718
+  },
+  {
+   "period": "2011",
+   "value": 23.704
+  },
+  {
+   "period": "2012",
+   "value": 24.228
+  },
+  {
+   "period": "2013",
+   "value": 24.445
+  },
+  {
+   "period": "2014",
+   "value": 24.52
+  },
+  {
+   "period": "2015",
+   "value": 24.313
+  },
+  {
+   "period": "2016",
+   "value": 24.448
+  },
+  {
+   "period": "2017",
+   "value": 24.308
+  },
+  {
+   "period": "2018",
+   "value": 24.04
+  },
+  {
+   "period": "2019",
+   "value": 23.945
+  },
+  {
+   "period": "2020",
+   "value": 27.235
+  },
+  {
+   "period": "2021",
+   "value": 24.825
+  },
+  {
+   "period": "2022",
+   "value": 23.814
+  },
+  {
+   "period": "2023",
+   "value": 23.277
+  },
+  {
+   "period": "2024",
+   "value": 23.735
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "id": "exp_defence_gbr",
+ "title": "英国国防支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 2.253
+ },
+ "change_vs_prev": 0.04800000000000004,
+ "change_vs_year_ago": 0.04800000000000004,
+ "series": [
+  {
+   "period": "2007",
+   "value": 2.133
+  },
+  {
+   "period": "2008",
+   "value": 2.323
+  },
+  {
+   "period": "2009",
+   "value": 2.512
+  },
+  {
+   "period": "2010",
+   "value": 2.52
+  },
+  {
+   "period": "2011",
+   "value": 2.449
+  },
+  {
+   "period": "2012",
+   "value": 2.353
+  },
+  {
+   "period": "2013",
+   "value": 2.201
+  },
+  {
+   "period": "2014",
+   "value": 2.094
+  },
+  {
+   "period": "2015",
+   "value": 1.985
+  },
+  {
+   "period": "2016",
+   "value": 1.887
+  },
+  {
+   "period": "2017",
+   "value": 1.852
+  },
+  {
+   "period": "2018",
+   "value": 1.825
+  },
+  {
+   "period": "2019",
+   "value": 1.96
+  },
+  {
+   "period": "2020",
+   "value": 2.144
+  },
+  {
+   "period": "2021",
+   "value": 2.117
+  },
+  {
+   "period": "2022",
+   "value": 2.145
+  },
+  {
+   "period": "2023",
+   "value": 2.205
+  },
+  {
+   "period": "2024",
+   "value": 2.253
+  }
+ ]
+}

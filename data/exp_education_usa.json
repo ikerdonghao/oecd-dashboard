@@ -1,0 +1,90 @@
+{
+ "id": "exp_education_usa",
+ "title": "美国教育支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 5.595
+ },
+ "change_vs_prev": 0.02799999999999958,
+ "change_vs_year_ago": 0.02799999999999958,
+ "series": [
+  {
+   "period": "2007",
+   "value": 6.243
+  },
+  {
+   "period": "2008",
+   "value": 6.436
+  },
+  {
+   "period": "2009",
+   "value": 6.739
+  },
+  {
+   "period": "2010",
+   "value": 6.695
+  },
+  {
+   "period": "2011",
+   "value": 6.498
+  },
+  {
+   "period": "2012",
+   "value": 6.254
+  },
+  {
+   "period": "2013",
+   "value": 6.212
+  },
+  {
+   "period": "2014",
+   "value": 6.1
+  },
+  {
+   "period": "2015",
+   "value": 6.054
+  },
+  {
+   "period": "2016",
+   "value": 6.068
+  },
+  {
+   "period": "2017",
+   "value": 5.991
+  },
+  {
+   "period": "2018",
+   "value": 5.907
+  },
+  {
+   "period": "2019",
+   "value": 5.859
+  },
+  {
+   "period": "2020",
+   "value": 6.031
+  },
+  {
+   "period": "2021",
+   "value": 5.794
+  },
+  {
+   "period": "2022",
+   "value": 5.664
+  },
+  {
+   "period": "2023",
+   "value": 5.567
+  },
+  {
+   "period": "2024",
+   "value": 5.595
+  }
+ ]
+}

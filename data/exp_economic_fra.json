@@ -1,0 +1,90 @@
+{
+ "id": "exp_economic_fra",
+ "title": "法国经济事务支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 5.688
+ },
+ "change_vs_prev": -0.5960000000000001,
+ "change_vs_year_ago": -0.5960000000000001,
+ "series": [
+  {
+   "period": "2007",
+   "value": 5.017
+  },
+  {
+   "period": "2008",
+   "value": 5.043
+  },
+  {
+   "period": "2009",
+   "value": 5.295
+  },
+  {
+   "period": "2010",
+   "value": 5.364
+  },
+  {
+   "period": "2011",
+   "value": 5.148
+  },
+  {
+   "period": "2012",
+   "value": 5.409
+  },
+  {
+   "period": "2013",
+   "value": 6.037
+  },
+  {
+   "period": "2014",
+   "value": 6.176
+  },
+  {
+   "period": "2015",
+   "value": 6.208
+  },
+  {
+   "period": "2016",
+   "value": 5.951
+  },
+  {
+   "period": "2017",
+   "value": 6.512
+  },
+  {
+   "period": "2018",
+   "value": 5.999
+  },
+  {
+   "period": "2019",
+   "value": 5.337
+  },
+  {
+   "period": "2020",
+   "value": 7.0
+  },
+  {
+   "period": "2021",
+   "value": 7.074
+  },
+  {
+   "period": "2022",
+   "value": 6.774
+  },
+  {
+   "period": "2023",
+   "value": 6.284
+  },
+  {
+   "period": "2024",
+   "value": 5.688
+  }
+ ]
+}
