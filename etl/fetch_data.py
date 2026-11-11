@@ -120,6 +120,51 @@ def fetch_imf(filt: str) -> list[dict]:
     return rows[-HISTORY_MONTHS:] if len(rows) > HISTORY_MONTHS else rows
 
 
+def fetch_yahoo(symbol: str) -> list[dict]:
+    """Fetch one Yahoo Finance monthly series (chart API, keyless,
+    unofficial) and return rows in the same shape as fetch_csv. Monthly
+    bars: period = the bar's calendar month, value = that month's close
+    (the current month is month-to-date until it ends). [] means Yahoo
+    answered but has no usable history for this symbol (verified case:
+    TX60.TS returns a single point — such symbols must not be configured;
+    use an ETF proxy instead)."""
+    url = ("https://query1.finance.yahoo.com/v8/finance/chart/"
+           + urllib.parse.quote(symbol, safe="")
+           + "?range=5y&interval=1mo")
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) oecd-dashboard-etl",
+        "Accept": "application/json"})
+    text = None
+    for attempt, wait in enumerate((0, 5, 15, 30, 60)):
+        if wait:
+            time.sleep(wait)
+        try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                text = resp.read().decode("utf-8")
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503, 504) and attempt < 4:
+                continue
+            if e.code == 404:
+                return []
+            raise
+    time.sleep(1.2)
+    doc = json.loads(text)
+    result = (doc.get("chart", {}).get("result") or [None])[0]
+    if not result:
+        return []
+    stamps = result.get("timestamp") or []
+    closes = ((result.get("indicators", {}).get("quote") or [{}])[0]).get("close") or []
+    by_month: dict[str, float] = {}
+    for t, c in zip(stamps, closes):
+        if c is None:
+            continue
+        period = datetime.fromtimestamp(t, timezone.utc).strftime("%Y-%m")
+        by_month[period] = float(c)
+    rows = [{"TIME_PERIOD": p, "OBS_VALUE": str(v)} for p, v in sorted(by_month.items())]
+    return rows[-HISTORY_MONTHS:] if len(rows) > HISTORY_MONTHS else rows
+
+
 PERIODS_PER_YEAR = {"M": 12, "Q": 4, "A": 1}
 
 
@@ -181,6 +226,8 @@ def main() -> int:
         if ds["id"] not in rows_cache:
             if ds.get("provider") == "imf":
                 rows_cache[ds["id"]] = fetch_imf(ds["filter"])
+            elif ds.get("provider") == "yahoo":
+                rows_cache[ds["id"]] = fetch_yahoo(ds["filter"])
             else:
                 rows_cache[ds["id"]] = fetch_csv(ds["dataflow"], ds["filter"])
         return rows_cache[ds["id"]]
