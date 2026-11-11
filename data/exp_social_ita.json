@@ -1,0 +1,90 @@
+{
+ "id": "exp_social_ita",
+ "title": "意大利社会保障支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 21.259
+ },
+ "change_vs_prev": 0.2890000000000015,
+ "change_vs_year_ago": 0.2890000000000015,
+ "series": [
+  {
+   "period": "2007",
+   "value": 17.34
+  },
+  {
+   "period": "2008",
+   "value": 17.921
+  },
+  {
+   "period": "2009",
+   "value": 19.686
+  },
+  {
+   "period": "2010",
+   "value": 19.664
+  },
+  {
+   "period": "2011",
+   "value": 19.493
+  },
+  {
+   "period": "2012",
+   "value": 20.194
+  },
+  {
+   "period": "2013",
+   "value": 20.82
+  },
+  {
+   "period": "2014",
+   "value": 21.029
+  },
+  {
+   "period": "2015",
+   "value": 21.192
+  },
+  {
+   "period": "2016",
+   "value": 20.755
+  },
+  {
+   "period": "2017",
+   "value": 20.602
+  },
+  {
+   "period": "2018",
+   "value": 20.605
+  },
+  {
+   "period": "2019",
+   "value": 21.003
+  },
+  {
+   "period": "2020",
+   "value": 24.974
+  },
+  {
+   "period": "2021",
+   "value": 22.557
+  },
+  {
+   "period": "2022",
+   "value": 21.378
+  },
+  {
+   "period": "2023",
+   "value": 20.97
+  },
+  {
+   "period": "2024",
+   "value": 21.259
+  }
+ ]
+}

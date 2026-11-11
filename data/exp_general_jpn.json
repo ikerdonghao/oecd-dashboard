@@ -1,0 +1,90 @@
+{
+ "id": "exp_general_jpn",
+ "title": "日本一般公共服务支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 3.644
+ },
+ "change_vs_prev": 0.17500000000000027,
+ "change_vs_year_ago": 0.17500000000000027,
+ "series": [
+  {
+   "period": "2007",
+   "value": 4.27
+  },
+  {
+   "period": "2008",
+   "value": 4.351
+  },
+  {
+   "period": "2009",
+   "value": 4.576
+  },
+  {
+   "period": "2010",
+   "value": 4.51
+  },
+  {
+   "period": "2011",
+   "value": 4.376
+  },
+  {
+   "period": "2012",
+   "value": 4.246
+  },
+  {
+   "period": "2013",
+   "value": 4.245
+  },
+  {
+   "period": "2014",
+   "value": 4.116
+  },
+  {
+   "period": "2015",
+   "value": 3.972
+  },
+  {
+   "period": "2016",
+   "value": 3.834
+  },
+  {
+   "period": "2017",
+   "value": 3.683
+  },
+  {
+   "period": "2018",
+   "value": 3.645
+  },
+  {
+   "period": "2019",
+   "value": 3.631
+  },
+  {
+   "period": "2020",
+   "value": 3.725
+  },
+  {
+   "period": "2021",
+   "value": 3.595
+  },
+  {
+   "period": "2022",
+   "value": 3.602
+  },
+  {
+   "period": "2023",
+   "value": 3.469
+  },
+  {
+   "period": "2024",
+   "value": 3.644
+  }
+ ]
+}

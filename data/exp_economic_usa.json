@@ -1,0 +1,90 @@
+{
+ "id": "exp_economic_usa",
+ "title": "美国经济事务支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 3.338
+ },
+ "change_vs_prev": -0.01100000000000012,
+ "change_vs_year_ago": -0.01100000000000012,
+ "series": [
+  {
+   "period": "2007",
+   "value": 3.675
+  },
+  {
+   "period": "2008",
+   "value": 4.064
+  },
+  {
+   "period": "2009",
+   "value": 4.194
+  },
+  {
+   "period": "2010",
+   "value": 3.977
+  },
+  {
+   "period": "2011",
+   "value": 3.8
+  },
+  {
+   "period": "2012",
+   "value": 3.632
+  },
+  {
+   "period": "2013",
+   "value": 3.518
+  },
+  {
+   "period": "2014",
+   "value": 3.42
+  },
+  {
+   "period": "2015",
+   "value": 3.268
+  },
+  {
+   "period": "2016",
+   "value": 3.397
+  },
+  {
+   "period": "2017",
+   "value": 3.4
+  },
+  {
+   "period": "2018",
+   "value": 3.421
+  },
+  {
+   "period": "2019",
+   "value": 3.435
+  },
+  {
+   "period": "2020",
+   "value": 6.605
+  },
+  {
+   "period": "2021",
+   "value": 5.679
+  },
+  {
+   "period": "2022",
+   "value": 2.999
+  },
+  {
+   "period": "2023",
+   "value": 3.349
+  },
+  {
+   "period": "2024",
+   "value": 3.338
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "id": "exp_general_ita",
+ "title": "意大利一般公共服务支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 7.739
+ },
+ "change_vs_prev": 0.3540000000000001,
+ "change_vs_year_ago": 0.3540000000000001,
+ "series": [
+  {
+   "period": "2007",
+   "value": 9.144
+  },
+  {
+   "period": "2008",
+   "value": 9.531
+  },
+  {
+   "period": "2009",
+   "value": 9.227
+  },
+  {
+   "period": "2010",
+   "value": 8.917
+  },
+  {
+   "period": "2011",
+   "value": 9.062
+  },
+  {
+   "period": "2012",
+   "value": 9.591
+  },
+  {
+   "period": "2013",
+   "value": 9.445
+  },
+  {
+   "period": "2014",
+   "value": 8.947
+  },
+  {
+   "period": "2015",
+   "value": 8.232
+  },
+  {
+   "period": "2016",
+   "value": 8.049
+  },
+  {
+   "period": "2017",
+   "value": 7.714
+  },
+  {
+   "period": "2018",
+   "value": 7.68
+  },
+  {
+   "period": "2019",
+   "value": 7.327
+  },
+  {
+   "period": "2020",
+   "value": 8.016
+  },
+  {
+   "period": "2021",
+   "value": 7.697
+  },
+  {
+   "period": "2022",
+   "value": 8.127
+  },
+  {
+   "period": "2023",
+   "value": 7.385
+  },
+  {
+   "period": "2024",
+   "value": 7.739
+  }
+ ]
+}

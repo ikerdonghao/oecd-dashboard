@@ -1,0 +1,90 @@
+{
+ "id": "exp_general_usa",
+ "title": "美国一般公共服务支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 6.852
+ },
+ "change_vs_prev": 0.04600000000000026,
+ "change_vs_year_ago": 0.04600000000000026,
+ "series": [
+  {
+   "period": "2007",
+   "value": 6.046
+  },
+  {
+   "period": "2008",
+   "value": 5.973
+  },
+  {
+   "period": "2009",
+   "value": 6.376
+  },
+  {
+   "period": "2010",
+   "value": 6.351
+  },
+  {
+   "period": "2011",
+   "value": 6.394
+  },
+  {
+   "period": "2012",
+   "value": 6.214
+  },
+  {
+   "period": "2013",
+   "value": 5.881
+  },
+  {
+   "period": "2014",
+   "value": 5.738
+  },
+  {
+   "period": "2015",
+   "value": 5.538
+  },
+  {
+   "period": "2016",
+   "value": 5.627
+  },
+  {
+   "period": "2017",
+   "value": 5.592
+  },
+  {
+   "period": "2018",
+   "value": 5.691
+  },
+  {
+   "period": "2019",
+   "value": 5.798
+  },
+  {
+   "period": "2020",
+   "value": 5.705
+  },
+  {
+   "period": "2021",
+   "value": 5.464
+  },
+  {
+   "period": "2022",
+   "value": 5.722
+  },
+  {
+   "period": "2023",
+   "value": 6.806
+  },
+  {
+   "period": "2024",
+   "value": 6.852
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "id": "exp_social_deu",
+ "title": "德国社会保障支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 20.402
+ },
+ "change_vs_prev": 0.8629999999999995,
+ "change_vs_year_ago": 0.8629999999999995,
+ "series": [
+  {
+   "period": "2007",
+   "value": 18.548
+  },
+  {
+   "period": "2008",
+   "value": 18.487
+  },
+  {
+   "period": "2009",
+   "value": 20.314
+  },
+  {
+   "period": "2010",
+   "value": 19.648
+  },
+  {
+   "period": "2011",
+   "value": 18.523
+  },
+  {
+   "period": "2012",
+   "value": 18.509
+  },
+  {
+   "period": "2013",
+   "value": 18.582
+  },
+  {
+   "period": "2014",
+   "value": 18.404
+  },
+  {
+   "period": "2015",
+   "value": 18.708
+  },
+  {
+   "period": "2016",
+   "value": 19.13
+  },
+  {
+   "period": "2017",
+   "value": 19.028
+  },
+  {
+   "period": "2018",
+   "value": 18.873
+  },
+  {
+   "period": "2019",
+   "value": 19.216
+  },
+  {
+   "period": "2020",
+   "value": 21.394
+  },
+  {
+   "period": "2021",
+   "value": 20.459
+  },
+  {
+   "period": "2022",
+   "value": 19.847
+  },
+  {
+   "period": "2023",
+   "value": 19.539
+  },
+  {
+   "period": "2024",
+   "value": 20.402
+  }
+ ]
+}

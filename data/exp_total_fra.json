@@ -1,0 +1,90 @@
+{
+ "id": "exp_total_fra",
+ "title": "法国政府总支出",
+ "subtitle": "全部功能加总 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG（十项职能加总）",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 57.256
+ },
+ "change_vs_prev": 0.3879999999999981,
+ "change_vs_year_ago": 0.3879999999999981,
+ "series": [
+  {
+   "period": "2007",
+   "value": 53.631
+  },
+  {
+   "period": "2008",
+   "value": 54.283
+  },
+  {
+   "period": "2009",
+   "value": 57.991
+  },
+  {
+   "period": "2010",
+   "value": 57.711999999999996
+  },
+  {
+   "period": "2011",
+   "value": 57.014
+  },
+  {
+   "period": "2012",
+   "value": 57.891
+  },
+  {
+   "period": "2013",
+   "value": 58.591
+  },
+  {
+   "period": "2014",
+   "value": 58.394999999999996
+  },
+  {
+   "period": "2015",
+   "value": 57.599
+  },
+  {
+   "period": "2016",
+   "value": 57.382
+  },
+  {
+   "period": "2017",
+   "value": 57.663
+  },
+  {
+   "period": "2018",
+   "value": 56.367
+  },
+  {
+   "period": "2019",
+   "value": 55.347
+  },
+  {
+   "period": "2020",
+   "value": 61.7
+  },
+  {
+   "period": "2021",
+   "value": 59.464
+  },
+  {
+   "period": "2022",
+   "value": 58.413
+  },
+  {
+   "period": "2023",
+   "value": 56.868
+  },
+  {
+   "period": "2024",
+   "value": 57.256
+  }
+ ]
+}

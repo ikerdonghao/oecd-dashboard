@@ -1,0 +1,90 @@
+{
+ "id": "exp_health_ita",
+ "title": "意大利医疗支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 6.634
+ },
+ "change_vs_prev": 0.11699999999999999,
+ "change_vs_year_ago": 0.11699999999999999,
+ "series": [
+  {
+   "period": "2007",
+   "value": 6.638
+  },
+  {
+   "period": "2008",
+   "value": 6.97
+  },
+  {
+   "period": "2009",
+   "value": 7.394
+  },
+  {
+   "period": "2010",
+   "value": 7.362
+  },
+  {
+   "period": "2011",
+   "value": 7.058
+  },
+  {
+   "period": "2012",
+   "value": 7.054
+  },
+  {
+   "period": "2013",
+   "value": 7.047
+  },
+  {
+   "period": "2014",
+   "value": 7.046
+  },
+  {
+   "period": "2015",
+   "value": 6.961
+  },
+  {
+   "period": "2016",
+   "value": 6.834
+  },
+  {
+   "period": "2017",
+   "value": 6.761
+  },
+  {
+   "period": "2018",
+   "value": 6.723
+  },
+  {
+   "period": "2019",
+   "value": 6.711
+  },
+  {
+   "period": "2020",
+   "value": 7.802
+  },
+  {
+   "period": "2021",
+   "value": 7.376
+  },
+  {
+   "period": "2022",
+   "value": 6.878
+  },
+  {
+   "period": "2023",
+   "value": 6.517
+  },
+  {
+   "period": "2024",
+   "value": 6.634
+  }
+ ]
+}

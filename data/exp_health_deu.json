@@ -1,0 +1,90 @@
+{
+ "id": "exp_health_deu",
+ "title": "德国医疗支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 7.606
+ },
+ "change_vs_prev": 0.20599999999999952,
+ "change_vs_year_ago": 0.20599999999999952,
+ "series": [
+  {
+   "period": "2007",
+   "value": 6.247
+  },
+  {
+   "period": "2008",
+   "value": 6.369
+  },
+  {
+   "period": "2009",
+   "value": 6.999
+  },
+  {
+   "period": "2010",
+   "value": 6.856
+  },
+  {
+   "period": "2011",
+   "value": 6.676
+  },
+  {
+   "period": "2012",
+   "value": 6.707
+  },
+  {
+   "period": "2013",
+   "value": 6.92
+  },
+  {
+   "period": "2014",
+   "value": 6.994
+  },
+  {
+   "period": "2015",
+   "value": 7.039
+  },
+  {
+   "period": "2016",
+   "value": 7.053
+  },
+  {
+   "period": "2017",
+   "value": 6.98
+  },
+  {
+   "period": "2018",
+   "value": 7.028
+  },
+  {
+   "period": "2019",
+   "value": 7.152
+  },
+  {
+   "period": "2020",
+   "value": 8.33
+  },
+  {
+   "period": "2021",
+   "value": 8.507
+  },
+  {
+   "period": "2022",
+   "value": 8.252
+  },
+  {
+   "period": "2023",
+   "value": 7.4
+  },
+  {
+   "period": "2024",
+   "value": 7.606
+  }
+ ]
+}

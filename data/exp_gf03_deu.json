@@ -1,0 +1,90 @@
+{
+ "id": "exp_gf03_deu",
+ "title": "德国公共秩序与安全支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 1.632
+ },
+ "change_vs_prev": 0.0259999999999998,
+ "change_vs_year_ago": 0.0259999999999998,
+ "series": [
+  {
+   "period": "2007",
+   "value": 1.448
+  },
+  {
+   "period": "2008",
+   "value": 1.456
+  },
+  {
+   "period": "2009",
+   "value": 1.578
+  },
+  {
+   "period": "2010",
+   "value": 1.53
+  },
+  {
+   "period": "2011",
+   "value": 1.488
+  },
+  {
+   "period": "2012",
+   "value": 1.503
+  },
+  {
+   "period": "2013",
+   "value": 1.531
+  },
+  {
+   "period": "2014",
+   "value": 1.518
+  },
+  {
+   "period": "2015",
+   "value": 1.498
+  },
+  {
+   "period": "2016",
+   "value": 1.51
+  },
+  {
+   "period": "2017",
+   "value": 1.515
+  },
+  {
+   "period": "2018",
+   "value": 1.549
+  },
+  {
+   "period": "2019",
+   "value": 1.588
+  },
+  {
+   "period": "2020",
+   "value": 1.682
+  },
+  {
+   "period": "2021",
+   "value": 1.652
+  },
+  {
+   "period": "2022",
+   "value": 1.579
+  },
+  {
+   "period": "2023",
+   "value": 1.606
+  },
+  {
+   "period": "2024",
+   "value": 1.632
+  }
+ ]
+}

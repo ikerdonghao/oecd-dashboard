@@ -1,0 +1,90 @@
+{
+ "id": "exp_total_aus",
+ "title": "澳大利亚政府总支出",
+ "subtitle": "全部功能加总 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG（十项职能加总）",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 41.167
+ },
+ "change_vs_prev": 1.1039999999999992,
+ "change_vs_year_ago": 1.1039999999999992,
+ "series": [
+  {
+   "period": "2007",
+   "value": 35.519
+  },
+  {
+   "period": "2008",
+   "value": 38.084
+  },
+  {
+   "period": "2009",
+   "value": 39.142
+  },
+  {
+   "period": "2010",
+   "value": 37.688
+  },
+  {
+   "period": "2011",
+   "value": 38.176
+  },
+  {
+   "period": "2012",
+   "value": 37.996
+  },
+  {
+   "period": "2013",
+   "value": 38.293
+  },
+  {
+   "period": "2014",
+   "value": 38.91
+  },
+  {
+   "period": "2015",
+   "value": 39.342999999999996
+  },
+  {
+   "period": "2016",
+   "value": 38.698
+  },
+  {
+   "period": "2017",
+   "value": 38.77
+  },
+  {
+   "period": "2018",
+   "value": 38.688
+  },
+  {
+   "period": "2019",
+   "value": 43.842
+  },
+  {
+   "period": "2020",
+   "value": 45.899
+  },
+  {
+   "period": "2021",
+   "value": 41.025
+  },
+  {
+   "period": "2022",
+   "value": 38.439
+  },
+  {
+   "period": "2023",
+   "value": 40.063
+  },
+  {
+   "period": "2024",
+   "value": 41.167
+  }
+ ]
+}

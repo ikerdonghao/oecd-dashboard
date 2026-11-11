@@ -1,0 +1,166 @@
+{
+ "id": "taxrevtotal_ita",
+ "title": "意大利总税收",
+ "subtitle": "全部税收 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — Revenue Statistics",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 42.752192
+ },
+ "change_vs_prev": 1.2284459999999982,
+ "change_vs_year_ago": 1.2284459999999982,
+ "series": [
+  {
+   "period": "1988",
+   "value": 34.455513
+  },
+  {
+   "period": "1989",
+   "value": 35.383893
+  },
+  {
+   "period": "1990",
+   "value": 36.187183
+  },
+  {
+   "period": "1991",
+   "value": 36.581036
+  },
+  {
+   "period": "1992",
+   "value": 38.83142
+  },
+  {
+   "period": "1993",
+   "value": 40.4121
+  },
+  {
+   "period": "1994",
+   "value": 38.49273
+  },
+  {
+   "period": "1995",
+   "value": 38.366861
+  },
+  {
+   "period": "1996",
+   "value": 40.082228
+  },
+  {
+   "period": "1997",
+   "value": 41.469732
+  },
+  {
+   "period": "1998",
+   "value": 39.836156
+  },
+  {
+   "period": "1999",
+   "value": 40.709998
+  },
+  {
+   "period": "2000",
+   "value": 40.054254
+  },
+  {
+   "period": "2001",
+   "value": 39.956195
+  },
+  {
+   "period": "2002",
+   "value": 39.659325
+  },
+  {
+   "period": "2003",
+   "value": 39.884635
+  },
+  {
+   "period": "2004",
+   "value": 39.26926
+  },
+  {
+   "period": "2005",
+   "value": 39.09269
+  },
+  {
+   "period": "2006",
+   "value": 40.125812
+  },
+  {
+   "period": "2007",
+   "value": 41.493987
+  },
+  {
+   "period": "2008",
+   "value": 41.359042
+  },
+  {
+   "period": "2009",
+   "value": 41.994683
+  },
+  {
+   "period": "2010",
+   "value": 41.688412
+  },
+  {
+   "period": "2011",
+   "value": 41.600988
+  },
+  {
+   "period": "2012",
+   "value": 43.522958
+  },
+  {
+   "period": "2013",
+   "value": 43.763216
+  },
+  {
+   "period": "2014",
+   "value": 43.272069
+  },
+  {
+   "period": "2015",
+   "value": 42.962488
+  },
+  {
+   "period": "2016",
+   "value": 42.178147
+  },
+  {
+   "period": "2017",
+   "value": 41.887779
+  },
+  {
+   "period": "2018",
+   "value": 41.682892
+  },
+  {
+   "period": "2019",
+   "value": 42.315269
+  },
+  {
+   "period": "2020",
+   "value": 42.650209
+  },
+  {
+   "period": "2021",
+   "value": 42.141739
+  },
+  {
+   "period": "2022",
+   "value": 42.010646
+  },
+  {
+   "period": "2023",
+   "value": 41.523746
+  },
+  {
+   "period": "2024",
+   "value": 42.752192
+  }
+ ]
+}

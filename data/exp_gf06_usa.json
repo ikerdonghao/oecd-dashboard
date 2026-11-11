@@ -1,0 +1,90 @@
+{
+ "id": "exp_gf06_usa",
+ "title": "美国住房与社区设施支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 0.546
+ },
+ "change_vs_prev": 0.06700000000000006,
+ "change_vs_year_ago": 0.06700000000000006,
+ "series": [
+  {
+   "period": "2007",
+   "value": 0.623
+  },
+  {
+   "period": "2008",
+   "value": 0.668
+  },
+  {
+   "period": "2009",
+   "value": 1.288
+  },
+  {
+   "period": "2010",
+   "value": 0.96
+  },
+  {
+   "period": "2011",
+   "value": 0.843
+  },
+  {
+   "period": "2012",
+   "value": 0.675
+  },
+  {
+   "period": "2013",
+   "value": 0.545
+  },
+  {
+   "period": "2014",
+   "value": 0.526
+  },
+  {
+   "period": "2015",
+   "value": 0.509
+  },
+  {
+   "period": "2016",
+   "value": 0.514
+  },
+  {
+   "period": "2017",
+   "value": 0.557
+  },
+  {
+   "period": "2018",
+   "value": 0.5
+  },
+  {
+   "period": "2019",
+   "value": 0.491
+  },
+  {
+   "period": "2020",
+   "value": 0.516
+  },
+  {
+   "period": "2021",
+   "value": 0.724
+  },
+  {
+   "period": "2022",
+   "value": 0.512
+  },
+  {
+   "period": "2023",
+   "value": 0.479
+  },
+  {
+   "period": "2024",
+   "value": 0.546
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "id": "exp_total_ita",
+ "title": "意大利政府总支出",
+ "subtitle": "全部功能加总 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG（十项职能加总）",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 50.37
+ },
+ "change_vs_prev": -3.2620000000000005,
+ "change_vs_year_ago": -3.2620000000000005,
+ "series": [
+  {
+   "period": "2007",
+   "value": 46.6
+  },
+  {
+   "period": "2008",
+   "value": 47.751
+  },
+  {
+   "period": "2009",
+   "value": 51.052
+  },
+  {
+   "period": "2010",
+   "value": 49.798
+  },
+  {
+   "period": "2011",
+   "value": 49.025999999999996
+  },
+  {
+   "period": "2012",
+   "value": 50.481
+  },
+  {
+   "period": "2013",
+   "value": 50.901
+  },
+  {
+   "period": "2014",
+   "value": 50.716
+  },
+  {
+   "period": "2015",
+   "value": 50.244
+  },
+  {
+   "period": "2016",
+   "value": 48.979
+  },
+  {
+   "period": "2017",
+   "value": 48.782000000000004
+  },
+  {
+   "period": "2018",
+   "value": 48.319
+  },
+  {
+   "period": "2019",
+   "value": 48.424
+  },
+  {
+   "period": "2020",
+   "value": 56.784
+  },
+  {
+   "period": "2021",
+   "value": 56.04
+  },
+  {
+   "period": "2022",
+   "value": 54.933
+  },
+  {
+   "period": "2023",
+   "value": 53.632
+  },
+  {
+   "period": "2024",
+   "value": 50.37
+  }
+ ]
+}

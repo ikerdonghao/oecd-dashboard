@@ -1,71 +1,751 @@
 {
- "updated_at_utc": "2026-11-10 19:52 UTC",
+ "updated_at_utc": "2026-11-11 00:48 UTC",
  "mode": "fill",
- "attempted": 12,
- "skipped_existing": 61,
+ "attempted": 153,
+ "skipped_existing": 73,
  "skipped_known_empty": 0,
  "confirmed_empty_this_run": [],
  "succeeded": [
   {
-   "id": "longrate_deu",
-   "latest_period": "2026-10",
-   "latest_value": 3.41590909090909
+   "id": "taxrevtotal_can",
+   "latest_period": "2024",
+   "latest_value": 34.90457
   },
   {
-   "id": "longrate_ita",
-   "latest_period": "2026-09",
-   "latest_value": 4.3622
+   "id": "taxrevpersonal_can",
+   "latest_period": "2024",
+   "latest_value": 36.72899565873466
   },
   {
-   "id": "longrate_jpn",
-   "latest_period": "2026-10",
-   "latest_value": 2.755
+   "id": "taxrevcorp_can",
+   "latest_period": "2024",
+   "latest_value": 13.196696020034054
   },
   {
-   "id": "currentaccount_can",
-   "latest_period": "2026-Q2",
-   "latest_value": 1.02812329101847
+   "id": "taxrevssc_can",
+   "latest_period": "2024",
+   "latest_value": 15.139249674183066
   },
   {
-   "id": "currentaccount_usa",
-   "latest_period": "2026-Q2",
-   "latest_value": -3.0221143425535
+   "id": "taxrevgoods_can",
+   "latest_period": "2024",
+   "latest_value": 21.637229738111657
   },
   {
-   "id": "currentaccount_chn",
-   "latest_period": "2026-Q2",
-   "latest_value": 4.0735140728398
+   "id": "taxrevproperty_can",
+   "latest_period": "2024",
+   "latest_value": 9.620992322781802
   },
   {
-   "id": "currentaccount_gbr",
-   "latest_period": "2026-Q2",
-   "latest_value": -2.53202184459544
+   "id": "taxrevtotal_usa",
+   "latest_period": "2024",
+   "latest_value": 25.618333
   },
   {
-   "id": "currentaccount_fra",
-   "latest_period": "2026-Q2",
-   "latest_value": -0.183646279640017
+   "id": "taxrevpersonal_usa",
+   "latest_period": "2024",
+   "latest_value": 40.29488569767595
   },
   {
-   "id": "currentaccount_deu",
-   "latest_period": "2026-Q2",
-   "latest_value": 4.86479461049827
+   "id": "taxrevcorp_usa",
+   "latest_period": "2024",
+   "latest_value": 8.753614062242066
   },
   {
-   "id": "currentaccount_ita",
-   "latest_period": "2026-Q2",
-   "latest_value": -0.577923607128419
+   "id": "taxrevssc_usa",
+   "latest_period": "2024",
+   "latest_value": 23.35260455861824
   },
   {
-   "id": "currentaccount_jpn",
-   "latest_period": "2026-Q2",
-   "latest_value": 5.08277375870866
+   "id": "taxrevgoods_usa",
+   "latest_period": "2024",
+   "latest_value": 16.106805232018804
   },
   {
-   "id": "currentaccount_aus",
-   "latest_period": "2026-Q2",
-   "latest_value": -3.66598339129053
+   "id": "taxrevproperty_usa",
+   "latest_period": "2024",
+   "latest_value": 11.423139827247931
+  },
+  {
+   "id": "taxrevtotal_chn",
+   "latest_period": "2024",
+   "latest_value": 19.5120687488951
+  },
+  {
+   "id": "taxrevpersonal_chn",
+   "latest_period": "2024",
+   "latest_value": 5.516686477929737
+  },
+  {
+   "id": "taxrevcorp_chn",
+   "latest_period": "2024",
+   "latest_value": 15.536588914582078
+  },
+  {
+   "id": "taxrevssc_chn",
+   "latest_period": "2024",
+   "latest_value": 33.530420260900826
+  },
+  {
+   "id": "taxrevgoods_chn",
+   "latest_period": "2024",
+   "latest_value": 37.042769154908065
+  },
+  {
+   "id": "taxrevproperty_chn",
+   "latest_period": "2024",
+   "latest_value": 5.979582432519199
+  },
+  {
+   "id": "taxrevtotal_gbr",
+   "latest_period": "2024",
+   "latest_value": 34.366806
+  },
+  {
+   "id": "taxrevpersonal_gbr",
+   "latest_period": "2024",
+   "latest_value": 31.346587750982742
+  },
+  {
+   "id": "taxrevcorp_gbr",
+   "latest_period": "2024",
+   "latest_value": 10.107017218882664
+  },
+  {
+   "id": "taxrevssc_gbr",
+   "latest_period": "2024",
+   "latest_value": 17.663512285663092
+  },
+  {
+   "id": "taxrevgoods_gbr",
+   "latest_period": "2024",
+   "latest_value": 29.596532770604288
+  },
+  {
+   "id": "taxrevproperty_gbr",
+   "latest_period": "2024",
+   "latest_value": 10.87606453739111
+  },
+  {
+   "id": "taxrevtotal_fra",
+   "latest_period": "2024",
+   "latest_value": 43.462209
+  },
+  {
+   "id": "taxrevpersonal_fra",
+   "latest_period": "2024",
+   "latest_value": 21.368228200273943
+  },
+  {
+   "id": "taxrevcorp_fra",
+   "latest_period": "2024",
+   "latest_value": 5.185514155527621
+  },
+  {
+   "id": "taxrevssc_fra",
+   "latest_period": "2024",
+   "latest_value": 33.77569925173384
+  },
+  {
+   "id": "taxrevgoods_fra",
+   "latest_period": "2024",
+   "latest_value": 25.46173159307204
+  },
+  {
+   "id": "taxrevproperty_fra",
+   "latest_period": "2024",
+   "latest_value": 7.814943322370016
+  },
+  {
+   "id": "taxrevtotal_deu",
+   "latest_period": "2024",
+   "latest_value": 38.021492
+  },
+  {
+   "id": "taxrevpersonal_deu",
+   "latest_period": "2024",
+   "latest_value": 26.46422449702921
+  },
+  {
+   "id": "taxrevcorp_deu",
+   "latest_period": "2024",
+   "latest_value": 5.744259062742724
+  },
+  {
+   "id": "taxrevssc_deu",
+   "latest_period": "2024",
+   "latest_value": 39.084376278553194
+  },
+  {
+   "id": "taxrevgoods_deu",
+   "latest_period": "2024",
+   "latest_value": 26.242407846593707
+  },
+  {
+   "id": "taxrevproperty_deu",
+   "latest_period": "2024",
+   "latest_value": 2.4311355272433812
+  },
+  {
+   "id": "taxrevtotal_ita",
+   "latest_period": "2024",
+   "latest_value": 42.752192
+  },
+  {
+   "id": "taxrevpersonal_ita",
+   "latest_period": "2024",
+   "latest_value": 27.508357934021255
+  },
+  {
+   "id": "taxrevcorp_ita",
+   "latest_period": "2024",
+   "latest_value": 6.252743718965334
+  },
+  {
+   "id": "taxrevssc_ita",
+   "latest_period": "2024",
+   "latest_value": 29.17452513312066
+  },
+  {
+   "id": "taxrevgoods_ita",
+   "latest_period": "2024",
+   "latest_value": 26.991270997285937
+  },
+  {
+   "id": "taxrevproperty_ita",
+   "latest_period": "2024",
+   "latest_value": 5.268370800729937
+  },
+  {
+   "id": "taxrevtotal_jpn",
+   "latest_period": "2023",
+   "latest_value": 33.733304
+  },
+  {
+   "id": "taxrevpersonal_jpn",
+   "latest_period": "2023",
+   "latest_value": 18.319818301818287
+  },
+  {
+   "id": "taxrevcorp_jpn",
+   "latest_period": "2023",
+   "latest_value": 13.947029914413363
+  },
+  {
+   "id": "taxrevssc_jpn",
+   "latest_period": "2023",
+   "latest_value": 39.100445067580694
+  },
+  {
+   "id": "taxrevgoods_jpn",
+   "latest_period": "2023",
+   "latest_value": 20.23362431382352
+  },
+  {
+   "id": "taxrevproperty_jpn",
+   "latest_period": "2023",
+   "latest_value": 8.151223491182485
+  },
+  {
+   "id": "taxrevtotal_aus",
+   "latest_period": "2023",
+   "latest_value": 29.867254
+  },
+  {
+   "id": "taxrevpersonal_aus",
+   "latest_period": "2023",
+   "latest_value": 42.591026279148394
+  },
+  {
+   "id": "taxrevcorp_aus",
+   "latest_period": "2023",
+   "latest_value": 19.47691943825837
+  },
+  {
+   "id": "taxrevssc_aus",
+   "latest_period": "2023",
+   "latest_value": 0.0
+  },
+  {
+   "id": "taxrevgoods_aus",
+   "latest_period": "2023",
+   "latest_value": 23.147554843843363
+  },
+  {
+   "id": "taxrevproperty_aus",
+   "latest_period": "2023",
+   "latest_value": 9.68196473636311
+  },
+  {
+   "id": "exp_general_usa",
+   "latest_period": "2024",
+   "latest_value": 6.852
+  },
+  {
+   "id": "exp_defence_usa",
+   "latest_period": "2024",
+   "latest_value": 3.109
+  },
+  {
+   "id": "exp_gf03_usa",
+   "latest_period": "2024",
+   "latest_value": 1.8
+  },
+  {
+   "id": "exp_economic_usa",
+   "latest_period": "2024",
+   "latest_value": 3.338
+  },
+  {
+   "id": "exp_gf05_usa",
+   "latest_period": "2024",
+   "latest_value": 0.0
+  },
+  {
+   "id": "exp_gf06_usa",
+   "latest_period": "2024",
+   "latest_value": 0.546
+  },
+  {
+   "id": "exp_defence_deu",
+   "latest_period": "2024",
+   "latest_value": 1.353
+  },
+  {
+   "id": "exp_gf03_deu",
+   "latest_period": "2024",
+   "latest_value": 1.632
+  },
+  {
+   "id": "exp_economic_deu",
+   "latest_period": "2024",
+   "latest_value": 5.418
+  },
+  {
+   "id": "exp_gf05_deu",
+   "latest_period": "2024",
+   "latest_value": 0.567
+  },
+  {
+   "id": "exp_gf06_deu",
+   "latest_period": "2024",
+   "latest_value": 0.474
+  },
+  {
+   "id": "exp_health_deu",
+   "latest_period": "2024",
+   "latest_value": 7.606
+  },
+  {
+   "id": "exp_gf08_deu",
+   "latest_period": "2024",
+   "latest_value": 1.062
+  },
+  {
+   "id": "exp_education_deu",
+   "latest_period": "2024",
+   "latest_value": 4.495
+  },
+  {
+   "id": "exp_social_deu",
+   "latest_period": "2024",
+   "latest_value": 20.402
+  },
+  {
+   "id": "exp_general_ita",
+   "latest_period": "2024",
+   "latest_value": 7.739
+  },
+  {
+   "id": "exp_defence_ita",
+   "latest_period": "2024",
+   "latest_value": 1.285
+  },
+  {
+   "id": "exp_gf03_ita",
+   "latest_period": "2024",
+   "latest_value": 1.775
+  },
+  {
+   "id": "exp_economic_ita",
+   "latest_period": "2024",
+   "latest_value": 5.104
+  },
+  {
+   "id": "exp_gf05_ita",
+   "latest_period": "2024",
+   "latest_value": 0.9
+  },
+  {
+   "id": "exp_gf06_ita",
+   "latest_period": "2024",
+   "latest_value": 0.771
+  },
+  {
+   "id": "exp_health_ita",
+   "latest_period": "2024",
+   "latest_value": 6.634
+  },
+  {
+   "id": "exp_gf08_ita",
+   "latest_period": "2024",
+   "latest_value": 0.853
+  },
+  {
+   "id": "exp_education_ita",
+   "latest_period": "2024",
+   "latest_value": 4.05
+  },
+  {
+   "id": "exp_social_ita",
+   "latest_period": "2024",
+   "latest_value": 21.259
+  },
+  {
+   "id": "exp_general_jpn",
+   "latest_period": "2024",
+   "latest_value": 3.644
+  },
+  {
+   "id": "exp_defence_jpn",
+   "latest_period": "2024",
+   "latest_value": 1.29
+  },
+  {
+   "id": "exp_gf03_jpn",
+   "latest_period": "2024",
+   "latest_value": 1.162
+  },
+  {
+   "id": "exp_economic_jpn",
+   "latest_period": "2024",
+   "latest_value": 4.232
+  },
+  {
+   "id": "exp_gf05_jpn",
+   "latest_period": "2024",
+   "latest_value": 1.176
+  },
+  {
+   "id": "exp_gf06_jpn",
+   "latest_period": "2024",
+   "latest_value": 0.592
+  },
+  {
+   "id": "exp_health_jpn",
+   "latest_period": "2024",
+   "latest_value": 7.587
+  },
+  {
+   "id": "exp_gf08_jpn",
+   "latest_period": "2024",
+   "latest_value": 0.39
+  },
+  {
+   "id": "exp_education_jpn",
+   "latest_period": "2024",
+   "latest_value": 3.256
+  },
+  {
+   "id": "exp_social_jpn",
+   "latest_period": "2024",
+   "latest_value": 15.719
+  },
+  {
+   "id": "exp_general_aus",
+   "latest_period": "2024",
+   "latest_value": 4.359
+  },
+  {
+   "id": "exp_defence_aus",
+   "latest_period": "2024",
+   "latest_value": 2.3
+  },
+  {
+   "id": "exp_gf03_aus",
+   "latest_period": "2024",
+   "latest_value": 2.043
+  },
+  {
+   "id": "exp_economic_aus",
+   "latest_period": "2024",
+   "latest_value": 5.045
+  },
+  {
+   "id": "exp_gf05_aus",
+   "latest_period": "2024",
+   "latest_value": 0.883
+  },
+  {
+   "id": "exp_gf06_aus",
+   "latest_period": "2024",
+   "latest_value": 0.613
+  },
+  {
+   "id": "exp_health_aus",
+   "latest_period": "2024",
+   "latest_value": 7.919
+  },
+  {
+   "id": "exp_gf08_aus",
+   "latest_period": "2024",
+   "latest_value": 0.925
+  },
+  {
+   "id": "exp_education_aus",
+   "latest_period": "2024",
+   "latest_value": 5.801
+  },
+  {
+   "id": "exp_social_aus",
+   "latest_period": "2024",
+   "latest_value": 11.279
+  },
+  {
+   "id": "exp_general_can",
+   "latest_period": "2024",
+   "latest_value": 5.58827033153167
+  },
+  {
+   "id": "exp_defence_can",
+   "latest_period": "2024",
+   "latest_value": 0.9000613863152132
+  },
+  {
+   "id": "exp_gf03_can",
+   "latest_period": "2024",
+   "latest_value": 1.785541081635988
+  },
+  {
+   "id": "exp_economic_can",
+   "latest_period": "2024",
+   "latest_value": 3.507189619919111
+  },
+  {
+   "id": "exp_gf05_can",
+   "latest_period": "2024",
+   "latest_value": 1.281235902466714
+  },
+  {
+   "id": "exp_gf06_can",
+   "latest_period": "2024",
+   "latest_value": 0.5751305354279759
+  },
+  {
+   "id": "exp_health_can",
+   "latest_period": "2024",
+   "latest_value": 8.75929989656113
+  },
+  {
+   "id": "exp_gf08_can",
+   "latest_period": "2024",
+   "latest_value": 0.8132222086965465
+  },
+  {
+   "id": "exp_education_can",
+   "latest_period": "2024",
+   "latest_value": 4.562832441398202
+  },
+  {
+   "id": "exp_social_can",
+   "latest_period": "2024",
+   "latest_value": 12.18557415082806
+  },
+  {
+   "id": "exp_general_chn",
+   "latest_period": "2024",
+   "latest_value": 2.706786407839669
+  },
+  {
+   "id": "exp_defence_chn",
+   "latest_period": "2024",
+   "latest_value": 1.258733691661514
+  },
+  {
+   "id": "exp_gf03_chn",
+   "latest_period": "2024",
+   "latest_value": 1.096402880470581
+  },
+  {
+   "id": "exp_economic_chn",
+   "latest_period": "2024",
+   "latest_value": 8.956653481915085
+  },
+  {
+   "id": "exp_gf05_chn",
+   "latest_period": "2024",
+   "latest_value": 0.4930315819604374
+  },
+  {
+   "id": "exp_gf06_chn",
+   "latest_period": "2024",
+   "latest_value": 1.721163568224104
+  },
+  {
+   "id": "exp_health_chn",
+   "latest_period": "2024",
+   "latest_value": 3.149753051804163
+  },
+  {
+   "id": "exp_gf08_chn",
+   "latest_period": "2024",
+   "latest_value": 0.2874977959325979
+  },
+  {
+   "id": "exp_education_chn",
+   "latest_period": "2024",
+   "latest_value": 3.170026284268106
+  },
+  {
+   "id": "exp_social_chn",
+   "latest_period": "2024",
+   "latest_value": 8.110841158096875
+  },
+  {
+   "id": "exp_total_usa",
+   "latest_period": "2024",
+   "latest_value": 39.571
+  },
+  {
+   "id": "exp_total_fra",
+   "latest_period": "2024",
+   "latest_value": 57.256
+  },
+  {
+   "id": "exp_total_deu",
+   "latest_period": "2024",
+   "latest_value": 49.428
+  },
+  {
+   "id": "exp_total_ita",
+   "latest_period": "2024",
+   "latest_value": 50.37
+  },
+  {
+   "id": "exp_total_jpn",
+   "latest_period": "2024",
+   "latest_value": 39.048
+  },
+  {
+   "id": "exp_total_aus",
+   "latest_period": "2024",
+   "latest_value": 41.167
+  },
+  {
+   "id": "exp_total_can",
+   "latest_period": "2024",
+   "latest_value": 39.95835755478061
+  },
+  {
+   "id": "exp_total_chn",
+   "latest_period": "2024",
+   "latest_value": 30.95088990217313
   }
  ],
- "failed": []
+ "failed": [
+  {
+   "id": "exp_health_usa",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_gf08_usa",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_education_usa",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_social_usa",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_general_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_defence_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_gf03_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_economic_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_gf05_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_gf06_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_health_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_gf08_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_education_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_social_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_general_fra",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_defence_fra",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_gf03_fra",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_economic_fra",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_gf05_fra",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_gf06_fra",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_health_fra",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_gf08_fra",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_education_fra",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_social_fra",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_general_deu",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "id": "exp_total_gbr",
+   "error": "HTTP Error 429: Too Many Requests"
+  }
+ ]
 }

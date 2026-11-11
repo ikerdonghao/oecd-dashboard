@@ -1,0 +1,90 @@
+{
+ "id": "exp_health_jpn",
+ "title": "日本医疗支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 7.587
+ },
+ "change_vs_prev": -0.22200000000000042,
+ "change_vs_year_ago": -0.22200000000000042,
+ "series": [
+  {
+   "period": "2007",
+   "value": 6.031
+  },
+  {
+   "period": "2008",
+   "value": 6.252
+  },
+  {
+   "period": "2009",
+   "value": 6.986
+  },
+  {
+   "period": "2010",
+   "value": 7.079
+  },
+  {
+   "period": "2011",
+   "value": 7.443
+  },
+  {
+   "period": "2012",
+   "value": 7.533
+  },
+  {
+   "period": "2013",
+   "value": 7.556
+  },
+  {
+   "period": "2014",
+   "value": 7.5
+  },
+  {
+   "period": "2015",
+   "value": 7.456
+  },
+  {
+   "period": "2016",
+   "value": 7.344
+  },
+  {
+   "period": "2017",
+   "value": 7.375
+  },
+  {
+   "period": "2018",
+   "value": 7.376
+  },
+  {
+   "period": "2019",
+   "value": 7.526
+  },
+  {
+   "period": "2020",
+   "value": 8.484
+  },
+  {
+   "period": "2021",
+   "value": 9.181
+  },
+  {
+   "period": "2022",
+   "value": 8.765
+  },
+  {
+   "period": "2023",
+   "value": 7.809
+  },
+  {
+   "period": "2024",
+   "value": 7.587
+  }
+ ]
+}

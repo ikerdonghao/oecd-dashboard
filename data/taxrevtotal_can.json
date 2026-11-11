@@ -1,0 +1,166 @@
+{
+ "id": "taxrevtotal_can",
+ "title": "加拿大总税收",
+ "subtitle": "全部税收 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — Revenue Statistics",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 34.90457
+ },
+ "change_vs_prev": 0.1194369999999978,
+ "change_vs_year_ago": 0.1194369999999978,
+ "series": [
+  {
+   "period": "1988",
+   "value": 33.032144
+  },
+  {
+   "period": "1989",
+   "value": 34.126202
+  },
+  {
+   "period": "1990",
+   "value": 35.071814
+  },
+  {
+   "period": "1991",
+   "value": 35.503224
+  },
+  {
+   "period": "1992",
+   "value": 35.066876
+  },
+  {
+   "period": "1993",
+   "value": 34.443659
+  },
+  {
+   "period": "1994",
+   "value": 34.403044
+  },
+  {
+   "period": "1995",
+   "value": 34.628301
+  },
+  {
+   "period": "1996",
+   "value": 34.940603
+  },
+  {
+   "period": "1997",
+   "value": 35.791113
+  },
+  {
+   "period": "1998",
+   "value": 35.710884
+  },
+  {
+   "period": "1999",
+   "value": 35.487383
+  },
+  {
+   "period": "2000",
+   "value": 34.672779
+  },
+  {
+   "period": "2001",
+   "value": 34.08549
+  },
+  {
+   "period": "2002",
+   "value": 33.080573
+  },
+  {
+   "period": "2003",
+   "value": 32.699947
+  },
+  {
+   "period": "2004",
+   "value": 32.712721
+  },
+  {
+   "period": "2005",
+   "value": 32.660635
+  },
+  {
+   "period": "2006",
+   "value": 32.724571
+  },
+  {
+   "period": "2007",
+   "value": 32.4951
+  },
+  {
+   "period": "2008",
+   "value": 31.234692
+  },
+  {
+   "period": "2009",
+   "value": 32.346387
+  },
+  {
+   "period": "2010",
+   "value": 31.006946
+  },
+  {
+   "period": "2011",
+   "value": 30.802901
+  },
+  {
+   "period": "2012",
+   "value": 31.177475
+  },
+  {
+   "period": "2013",
+   "value": 31.131923
+  },
+  {
+   "period": "2014",
+   "value": 31.266373
+  },
+  {
+   "period": "2015",
+   "value": 32.820338
+  },
+  {
+   "period": "2016",
+   "value": 33.258015
+  },
+  {
+   "period": "2017",
+   "value": 33.044013
+  },
+  {
+   "period": "2018",
+   "value": 33.482477
+  },
+  {
+   "period": "2019",
+   "value": 33.081877
+  },
+  {
+   "period": "2020",
+   "value": 34.445152
+  },
+  {
+   "period": "2021",
+   "value": 34.800884
+  },
+  {
+   "period": "2022",
+   "value": 33.878741
+  },
+  {
+   "period": "2023",
+   "value": 34.785133
+  },
+  {
+   "period": "2024",
+   "value": 34.90457
+  }
+ ]
+}

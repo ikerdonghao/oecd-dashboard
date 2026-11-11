@@ -1,0 +1,90 @@
+{
+ "id": "exp_total_usa",
+ "title": "美国政府总支出",
+ "subtitle": "全部功能加总 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG（十项职能加总）",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 39.571
+ },
+ "change_vs_prev": 0.3569999999999993,
+ "change_vs_year_ago": 0.3569999999999993,
+ "series": [
+  {
+   "period": "2007",
+   "value": 37.373
+  },
+  {
+   "period": "2008",
+   "value": 39.68
+  },
+  {
+   "period": "2009",
+   "value": 43.194
+  },
+  {
+   "period": "2010",
+   "value": 43.021
+  },
+  {
+   "period": "2011",
+   "value": 41.900999999999996
+  },
+  {
+   "period": "2012",
+   "value": 40.091
+  },
+  {
+   "period": "2013",
+   "value": 38.796
+  },
+  {
+   "period": "2014",
+   "value": 38.17
+  },
+  {
+   "period": "2015",
+   "value": 37.775
+  },
+  {
+   "period": "2016",
+   "value": 38.057
+  },
+  {
+   "period": "2017",
+   "value": 37.769
+  },
+  {
+   "period": "2018",
+   "value": 37.724000000000004
+  },
+  {
+   "period": "2019",
+   "value": 38.241
+  },
+  {
+   "period": "2020",
+   "value": 47.256
+  },
+  {
+   "period": "2021",
+   "value": 45.333
+  },
+  {
+   "period": "2022",
+   "value": 38.417
+  },
+  {
+   "period": "2023",
+   "value": 39.214
+  },
+  {
+   "period": "2024",
+   "value": 39.571
+  }
+ ]
+}

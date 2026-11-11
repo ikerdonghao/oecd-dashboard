@@ -1,0 +1,166 @@
+{
+ "id": "taxrevtotal_jpn",
+ "title": "日本总税收",
+ "subtitle": "全部税收 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — Revenue Statistics",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2023",
+  "value": 33.733304
+ },
+ "change_vs_prev": -0.813247000000004,
+ "change_vs_year_ago": -0.813247000000004,
+ "series": [
+  {
+   "period": "1987",
+   "value": 27.712492
+  },
+  {
+   "period": "1988",
+   "value": 28.162101
+  },
+  {
+   "period": "1989",
+   "value": 28.431592
+  },
+  {
+   "period": "1990",
+   "value": 27.690182
+  },
+  {
+   "period": "1991",
+   "value": 27.355992
+  },
+  {
+   "period": "1992",
+   "value": 25.857992
+  },
+  {
+   "period": "1993",
+   "value": 25.843828
+  },
+  {
+   "period": "1994",
+   "value": 25.001284
+  },
+  {
+   "period": "1995",
+   "value": 25.401185
+  },
+  {
+   "period": "1996",
+   "value": 25.342517
+  },
+  {
+   "period": "1997",
+   "value": 25.735515
+  },
+  {
+   "period": "1998",
+   "value": 25.25886
+  },
+  {
+   "period": "1999",
+   "value": 24.802498
+  },
+  {
+   "period": "2000",
+   "value": 25.330599
+  },
+  {
+   "period": "2001",
+   "value": 25.526535
+  },
+  {
+   "period": "2002",
+   "value": 24.498194
+  },
+  {
+   "period": "2003",
+   "value": 24.131396
+  },
+  {
+   "period": "2004",
+   "value": 24.75624
+  },
+  {
+   "period": "2005",
+   "value": 25.824432
+  },
+  {
+   "period": "2006",
+   "value": 26.614641
+  },
+  {
+   "period": "2007",
+   "value": 27.154861
+  },
+  {
+   "period": "2008",
+   "value": 27.042872
+  },
+  {
+   "period": "2009",
+   "value": 25.680642
+  },
+  {
+   "period": "2010",
+   "value": 26.237194
+  },
+  {
+   "period": "2011",
+   "value": 27.12875
+  },
+  {
+   "period": "2012",
+   "value": 27.949113
+  },
+  {
+   "period": "2013",
+   "value": 28.609005
+  },
+  {
+   "period": "2014",
+   "value": 29.973182
+  },
+  {
+   "period": "2015",
+   "value": 30.220231
+  },
+  {
+   "period": "2016",
+   "value": 30.254389
+  },
+  {
+   "period": "2017",
+   "value": 30.916262
+  },
+  {
+   "period": "2018",
+   "value": 31.548441
+  },
+  {
+   "period": "2019",
+   "value": 31.507157
+  },
+  {
+   "period": "2020",
+   "value": 32.911151
+  },
+  {
+   "period": "2021",
+   "value": 33.877709
+  },
+  {
+   "period": "2022",
+   "value": 34.546551
+  },
+  {
+   "period": "2023",
+   "value": 33.733304
+  }
+ ]
+}

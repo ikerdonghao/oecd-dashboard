@@ -1,0 +1,90 @@
+{
+ "id": "exp_social_aus",
+ "title": "澳大利亚社会保障支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 11.279
+ },
+ "change_vs_prev": 0.6760000000000002,
+ "change_vs_year_ago": 0.6760000000000002,
+ "series": [
+  {
+   "period": "2007",
+   "value": 9.481
+  },
+  {
+   "period": "2008",
+   "value": 11.2
+  },
+  {
+   "period": "2009",
+   "value": 9.871
+  },
+  {
+   "period": "2010",
+   "value": 9.576
+  },
+  {
+   "period": "2011",
+   "value": 9.756
+  },
+  {
+   "period": "2012",
+   "value": 9.877
+  },
+  {
+   "period": "2013",
+   "value": 10.073
+  },
+  {
+   "period": "2014",
+   "value": 10.438
+  },
+  {
+   "period": "2015",
+   "value": 10.512
+  },
+  {
+   "period": "2016",
+   "value": 10.027
+  },
+  {
+   "period": "2017",
+   "value": 9.778
+  },
+  {
+   "period": "2018",
+   "value": 9.751
+  },
+  {
+   "period": "2019",
+   "value": 10.979
+  },
+  {
+   "period": "2020",
+   "value": 11.728
+  },
+  {
+   "period": "2021",
+   "value": 10.631
+  },
+  {
+   "period": "2022",
+   "value": 9.714
+  },
+  {
+   "period": "2023",
+   "value": 10.603
+  },
+  {
+   "period": "2024",
+   "value": 11.279
+  }
+ ]
+}

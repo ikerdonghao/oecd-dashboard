@@ -1,0 +1,90 @@
+{
+ "id": "exp_education_deu",
+ "title": "德国教育支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 4.495
+ },
+ "change_vs_prev": 0.04100000000000037,
+ "change_vs_year_ago": 0.04100000000000037,
+ "series": [
+  {
+   "period": "2007",
+   "value": 3.88
+  },
+  {
+   "period": "2008",
+   "value": 3.903
+  },
+  {
+   "period": "2009",
+   "value": 4.28
+  },
+  {
+   "period": "2010",
+   "value": 4.326
+  },
+  {
+   "period": "2011",
+   "value": 4.239
+  },
+  {
+   "period": "2012",
+   "value": 4.155
+  },
+  {
+   "period": "2013",
+   "value": 4.226
+  },
+  {
+   "period": "2014",
+   "value": 4.186
+  },
+  {
+   "period": "2015",
+   "value": 4.158
+  },
+  {
+   "period": "2016",
+   "value": 4.116
+  },
+  {
+   "period": "2017",
+   "value": 4.097
+  },
+  {
+   "period": "2018",
+   "value": 4.178
+  },
+  {
+   "period": "2019",
+   "value": 4.293
+  },
+  {
+   "period": "2020",
+   "value": 4.568
+  },
+  {
+   "period": "2021",
+   "value": 4.446
+  },
+  {
+   "period": "2022",
+   "value": 4.361
+  },
+  {
+   "period": "2023",
+   "value": 4.454
+  },
+  {
+   "period": "2024",
+   "value": 4.495
+  }
+ ]
+}

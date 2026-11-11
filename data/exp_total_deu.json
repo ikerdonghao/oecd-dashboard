@@ -1,0 +1,90 @@
+{
+ "id": "exp_total_deu",
+ "title": "德国政府总支出",
+ "subtitle": "全部功能加总 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG（十项职能加总）",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 49.428
+ },
+ "change_vs_prev": 1.2809999999999988,
+ "change_vs_year_ago": 1.2809999999999988,
+ "series": [
+  {
+   "period": "2007",
+   "value": 43.54
+  },
+  {
+   "period": "2008",
+   "value": 44.425999999999995
+  },
+  {
+   "period": "2009",
+   "value": 48.309
+  },
+  {
+   "period": "2010",
+   "value": 48.128
+  },
+  {
+   "period": "2011",
+   "value": 45.289
+  },
+  {
+   "period": "2012",
+   "value": 45.099000000000004
+  },
+  {
+   "period": "2013",
+   "value": 45.162
+  },
+  {
+   "period": "2014",
+   "value": 44.508
+  },
+  {
+   "period": "2015",
+   "value": 44.486
+  },
+  {
+   "period": "2016",
+   "value": 44.730999999999995
+  },
+  {
+   "period": "2017",
+   "value": 44.538
+  },
+  {
+   "period": "2018",
+   "value": 44.65
+  },
+  {
+   "period": "2019",
+   "value": 45.533
+  },
+  {
+   "period": "2020",
+   "value": 51.113
+  },
+  {
+   "period": "2021",
+   "value": 50.669
+  },
+  {
+   "period": "2022",
+   "value": 48.609
+  },
+  {
+   "period": "2023",
+   "value": 48.147
+  },
+  {
+   "period": "2024",
+   "value": 49.428
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "id": "exp_economic_ita",
+ "title": "意大利经济事务支出",
+ "subtitle": "政府支出按功能 · 占 GDP · 年度",
+ "source": "OECD Data Explorer — COFOG",
+ "unit": "%",
+ "decimals": 1,
+ "direction_good": "up",
+ "freq": "A",
+ "latest": {
+  "period": "2024",
+  "value": 5.104
+ },
+ "change_vs_prev": -0.7030000000000003,
+ "change_vs_year_ago": -0.7030000000000003,
+ "series": [
+  {
+   "period": "2007",
+   "value": 3.95
+  },
+  {
+   "period": "2008",
+   "value": 3.838
+  },
+  {
+   "period": "2009",
+   "value": 4.495
+  },
+  {
+   "period": "2010",
+   "value": 3.995
+  },
+  {
+   "period": "2011",
+   "value": 3.961
+  },
+  {
+   "period": "2012",
+   "value": 4.32
+  },
+  {
+   "period": "2013",
+   "value": 4.216
+  },
+  {
+   "period": "2014",
+   "value": 4.539
+  },
+  {
+   "period": "2015",
+   "value": 4.717
+  },
+  {
+   "period": "2016",
+   "value": 4.189
+  },
+  {
+   "period": "2017",
+   "value": 4.617
+  },
+  {
+   "period": "2018",
+   "value": 4.226
+  },
+  {
+   "period": "2019",
+   "value": 4.208
+  },
+  {
+   "period": "2020",
+   "value": 5.917
+  },
+  {
+   "period": "2021",
+   "value": 6.747
+  },
+  {
+   "period": "2022",
+   "value": 6.482
+  },
+  {
+   "period": "2023",
+   "value": 5.807
+  },
+  {
+   "period": "2024",
+   "value": 5.104
+  }
+ ]
+}
