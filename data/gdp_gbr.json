@@ -6,17 +6,14 @@
  "unit": "%",
  "decimals": 1,
  "direction_good": "up",
+ "freq": "Q",
  "latest": {
-  "period": "2026-Q2",
-  "value": 1.37259948282358
+  "period": "2026-Q3",
+  "value": 1.9422054885764
  },
- "change_vs_prev": 0.5299162421159149,
- "change_vs_year_ago": 0.7916292975698649,
+ "change_vs_prev": 0.56960600575282,
+ "change_vs_year_ago": 0.7893508500045601,
  "series": [
-  {
-   "period": "2017-Q2",
-   "value": 3.12355245999731
-  },
   {
    "period": "2017-Q3",
    "value": 3.50639360867484
@@ -160,6 +157,10 @@
   {
    "period": "2026-Q2",
    "value": 1.37259948282358
+  },
+  {
+   "period": "2026-Q3",
+   "value": 1.9422054885764
   }
  ]
 }

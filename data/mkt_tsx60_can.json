@@ -9,10 +9,10 @@
  "freq": "M",
  "latest": {
   "period": "2026-11",
-  "value": 54.349998474121094
+  "value": 54.0
  },
- "change_vs_prev": 0.5699996948242188,
- "change_vs_year_ago": 7.9199981689453125,
+ "change_vs_prev": 0.220001220703125,
+ "change_vs_year_ago": 7.569999694824219,
  "series": [
   {
    "period": "2023-11",
@@ -160,7 +160,7 @@
   },
   {
    "period": "2026-11",
-   "value": 54.349998474121094
+   "value": 54.0
   }
  ]
 }

@@ -6,6 +6,7 @@
  "unit": "index",
  "decimals": 1,
  "direction_good": "up",
+ "freq": "M",
  "latest": {
   "period": "2026-09",
   "value": 97.860962566845

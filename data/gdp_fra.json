@@ -6,12 +6,13 @@
  "unit": "%",
  "decimals": 1,
  "direction_good": "up",
+ "freq": "Q",
  "latest": {
   "period": "2026-Q3",
   "value": -0.071080985045557
  },
  "change_vs_prev": -0.59911095540126,
- "change_vs_year_ago": -1.935776842092187,
+ "change_vs_year_ago": -0.888706628350188,
  "series": [
   {
    "period": "2017-Q3",

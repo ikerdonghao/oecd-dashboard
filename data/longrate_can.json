@@ -6,12 +6,13 @@
  "unit": "%",
  "decimals": 2,
  "direction_good": "down",
+ "freq": "M",
  "latest": {
   "period": "2026-10",
-  "value": 3.903
+  "value": 3.8747619047619
  },
- "change_vs_prev": 0.020500000000000185,
- "change_vs_year_ago": 0.7748181818181799,
+ "change_vs_prev": -0.0077380952380998735,
+ "change_vs_year_ago": 0.7465800865800798,
  "series": [
   {
    "period": "2023-10",
@@ -151,7 +152,7 @@
   },
   {
    "period": "2026-08",
-   "value": 3.675
+   "value": 3.70222222222222
   },
   {
    "period": "2026-09",
@@ -159,7 +160,7 @@
   },
   {
    "period": "2026-10",
-   "value": 3.903
+   "value": 3.8747619047619
   }
  ]
 }

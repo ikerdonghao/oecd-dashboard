@@ -6,6 +6,7 @@
  "unit": "指数",
  "decimals": 1,
  "direction_good": "up",
+ "freq": "M",
  "latest": {
   "period": "2026-08",
   "value": 109.22935643762

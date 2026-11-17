@@ -6,12 +6,13 @@
  "unit": "%",
  "decimals": 2,
  "direction_good": "down",
+ "freq": "M",
  "latest": {
   "period": "2026-10",
-  "value": 5.28
+  "value": 5.265
  },
- "change_vs_prev": -0.0030000000000001137,
- "change_vs_year_ago": 1.0460000000000003,
+ "change_vs_prev": -0.018000000000000682,
+ "change_vs_year_ago": 1.0309999999999997,
  "series": [
   {
    "period": "2023-10",
@@ -159,7 +160,7 @@
   },
   {
    "period": "2026-10",
-   "value": 5.28
+   "value": 5.265
   }
  ]
 }
